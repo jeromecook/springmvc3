@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Cookbol</title>
+		<title>Cookbol, Pro futbol development</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -31,7 +31,7 @@
 					
 				<!-- Logo -->
 					<div id="logo">
-						<h1><a href="#">Ex Machina</a></h1>
+						<h1><a href="#">Cookbol</a></h1>
 					</div>
 				
 				<!-- Nav -->

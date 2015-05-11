@@ -10,4 +10,9 @@ public class SpringMVC3Controller {
     public String sayHelloToOpenShift(){
         return "hello";
     }
+    
+    @RequestMapping("/index")
+    public String homePage(){
+        return "index";
+    }
 }
