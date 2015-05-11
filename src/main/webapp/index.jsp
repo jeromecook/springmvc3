@@ -1,12 +1,8 @@
-<!DOCTYPE HTML>
-<!--
-	Ex Machina by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
+
 <html>
 	<head>
-		<title>Ex Machina by TEMPLATED</title>
+		<title>Cookbol</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
