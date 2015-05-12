@@ -10,12 +10,11 @@
  http://www.springframework.org/schema/context/spring-context-3.0.xsd">
  
     <context:component-scan base-package="com.openshift.springmvc3.controllers" />
-    
-     <mvc:resources mapping="/css/**" location="/css/" />
+  <!--    <mvc:resources mapping="/css/**" location="/css/" />
      <mvc:resources mapping="/js/**" location="/js/" />
      <mvc:resources mapping="/images/**" location="/images/" />
-     
-    <mvc:annotation-driven />
+     -->
+     <mvc:annotation-driven />
 
  
     <bean
