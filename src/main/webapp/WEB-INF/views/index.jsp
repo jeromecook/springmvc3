@@ -24,6 +24,26 @@
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
+		
+		 <style type="text/css" media="screen">
+            .slides_container {
+                width:570px;
+                height:270px;
+            }
+            .slides_container div {
+                width:570px;
+                height:270px;
+                display:block;
+            }
+        </style>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="slides.js"></script>
+         <script>
+            $(function(){
+                $("#slides").slides();
+            });
+        </script>
 	</head>
 	<body class="homepage">
 
@@ -51,13 +71,28 @@
 			</div>
 		</div>
 	<!-- Header -->
-		
-	<!-- Banner -->
+		<div id="slides">
+            <div class="slides_container">
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+                <div>
+                    <img src="http://placehold.it/570x270">
+                </div>
+            </div>
+        </div>
+	<!-- Banner 
 		<div id="banner">
 			<div class="container">
 			</div>
 		</div>
-	<!-- /Banner -->
+	 /Banner -->
 
 	<!-- Main -->
 		<div id="page">
