@@ -20,4 +20,19 @@ public class SpringMVC3Controller {
     	model.addAttribute("message", "Error from Controller");
         return "index";
     }
+    @RequestMapping(value = "/left-sidebar" , method= RequestMethod.GET)
+    public String leftSideBar(ModelMap model){
+    	model.addAttribute("message", "Error from Controller");
+        return "left-sidebar";
+    }
+    @RequestMapping(value = "/right-sidebar" , method= RequestMethod.GET)
+    public String rightSideBar(ModelMap model){
+    	model.addAttribute("message", "Error from Controller");
+        return "left-sidebar";
+    }
+    @RequestMapping(value = "/no-sidebar", method=RequestMethod.GET)
+    public String noSideBar(ModelMap model){
+    	model.addAttribute("message", "no sidebar constroller");
+    	return "no-sidebar";
+    }
 }

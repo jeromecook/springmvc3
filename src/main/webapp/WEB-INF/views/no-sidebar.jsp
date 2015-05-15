@@ -34,16 +34,16 @@
 					
 				<!-- Logo -->
 					<div id="logo">
-						<h1><a href="#">Cookbol</a></h1>
+						<h1><a href="index">Cookbol</a></h1>
 					</div>
 				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="index.jsp">Homepage</a></li>
-							<li><a href="left-sidebar.jsp">Left Sidebar</a></li>
-							<li><a href="right-sidebar.jsp">Right Sidebar</a></li>
-							<li class="active"><a href="no-sidebar.jsp">No Sidebar</a></li>
+							<li><a href="index">Homepage</a></li>
+							<li><a href="left-sidebar">Left Sidebar</a></li>
+							<li><a href="right-sidebar">Right Sidebar</a></li>
+							<li class="active"><a href="no-sidebar">No Sidebar</a></li>
 						</ul>
 					</nav>
 
