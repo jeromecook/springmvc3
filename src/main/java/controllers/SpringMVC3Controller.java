@@ -16,6 +16,7 @@ public class SpringMVC3Controller {
     
     @RequestMapping(value = "/index" , method= RequestMethod.GET)
     public String homePage(ModelMap model){
+    	System.out.println("in the homepage constroller");
     	model.addAttribute("message", "Error from Controller");
         return "index";
     }
