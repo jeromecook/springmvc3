@@ -74,16 +74,16 @@
 		<div id="slides">
             <div class="slides_container">
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <img src="images/pics13.jpg">
                 </div>
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <img src="images/pics14.jpg">
                 </div>
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <img src="images/pics15.jpg">
                 </div>
                 <div>
-                    <img src="http://placehold.it/570x270">
+                    <img src="images/pics16.jpg">
                 </div>
             </div>
         </div>
