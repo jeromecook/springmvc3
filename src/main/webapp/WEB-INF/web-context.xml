@@ -10,10 +10,10 @@
  
     <!--<context:component-scan base-package="com.openshift.springmvc3.controllers" /> -->
     <context:component-scan base-package="controllers" />
-  <!--    <mvc:resources mapping="/css/**" location="/css/" />
+      <mvc:resources mapping="/css/**" location="/css/" />
      <mvc:resources mapping="/js/**" location="/js/" />
      <mvc:resources mapping="/images/**" location="/images/" />
-     -->
+     
      <mvc:annotation-driven />
 
  
