@@ -144,6 +144,7 @@
 		</div>
 		<img src="img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
 	</div>
+ </div>	
 	<!--end new jquery -->
 		
 	<!-- Banner 
