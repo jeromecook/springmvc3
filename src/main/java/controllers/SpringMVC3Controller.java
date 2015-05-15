@@ -28,7 +28,7 @@ public class SpringMVC3Controller {
     @RequestMapping(value = "/right-sidebar" , method= RequestMethod.GET)
     public String rightSideBar(ModelMap model){
     	model.addAttribute("message", "Error from Controller");
-        return "left-sidebar";
+        return "right-sidebar";
     }
     @RequestMapping(value = "/no-sidebar", method=RequestMethod.GET)
     public String noSideBar(ModelMap model){
