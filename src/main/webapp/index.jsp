@@ -8,18 +8,18 @@
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
+		<script src="<c:url value="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" />"></script>
+		<script src="<c:url value="/js/skel.min.js" />"></script>
+		<script src="<c:url value="/js/skel-panels.min.js" />"></script>
+		<script src="<c:url value=" /js/init.js" /> "></script>
 	
-		<noscript>
+		
 <!--<script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script> -->
 
-			<link  href="<c:url value="/css/skel-noscript.css" /> rel="stylesheet">
-			<link  href="<c:url value="/css/style.css" /> rel="stylesheet" >
-			<link  href="<c:url value="/css/style-desktop.css" /> rel="stylesheet">
-		</noscript>
+			<link  href="<c:url value="/css/skel-noscript.css" />" rel="stylesheet">
+			<link  href="<c:url value="/css/style.css" />" rel="stylesheet" >
+			<link  href="<c:url value="/css/style-desktop.css" />" rel="stylesheet">
+		
 		
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
