@@ -1,3 +1,5 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <html>
 	<head>
 		<title>Cookbol, Pro futbol development</title>
@@ -12,9 +14,11 @@
 		<script src="js/init.js"></script>
 	
 		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
+<!--<script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script> -->
+
+			<link  href="<c:url value="/css/skel-noscript.css" /> rel="stylesheet">
+			<link  href="<c:url value="/css/style.css" /> rel="stylesheet" >
+			<link  href="<c:url value="/css/style-desktop.css" /> rel="stylesheet">
 		</noscript>
 		
 		
