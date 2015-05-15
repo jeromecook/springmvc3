@@ -38,7 +38,7 @@
         </style>
 
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="slides.js"></script>
+        <script src="/slides.js"></script>
          <script>
             $(function(){
                 $("#slides").slides();
