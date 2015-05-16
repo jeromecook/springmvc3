@@ -169,10 +169,8 @@
 							<!-- <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
 							-->
 							
-							<object data=http://cda.gotsport.com/clubsite/?p=9666 width="282" height="150"> 
-								<embed src=http://cda.gotsport.com/clubsite/?p=9666 width="282" height="150"> </embed>
-									 Error: Embedded data could not be displayed. 
-						    </object>
+							
+						    <iframe src="http://cda.gotsport.com/clubsite/?p=9666" width="282" height="150"></iframe>
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
