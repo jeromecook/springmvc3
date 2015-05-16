@@ -169,8 +169,8 @@
 							<!-- <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
 							-->
 							
-							<object data=http://springmvc3-jeromecook.rhcloud.com/ width="282" height="150"> 
-								<embed src=http://www.web-source.net width="282" height="150"> </embed>
+							<object data=http://cda.gotsport.com/clubsite/?p=9666 width="282" height="150"> 
+								<embed src=http://cda.gotsport.com/clubsite/?p=9666 width="282" height="150"> </embed>
 									 Error: Embedded data could not be displayed. 
 						    </object>
 							<a href="#" class="button">More</a>
