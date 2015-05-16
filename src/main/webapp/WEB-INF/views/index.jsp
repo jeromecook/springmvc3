@@ -166,7 +166,13 @@
 								<h2>Feugiat Tempus</h2>
 							</header>
 							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							<!-- <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							-->
+							
+							<object data=http://springmvc3-jeromecook.rhcloud.com/ width="282" height="150"> 
+								<embed src=http://www.web-source.net width="282" height="150"> </embed>
+									 Error: Embedded data could not be displayed. 
+						    </object>
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
