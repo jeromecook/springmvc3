@@ -8,11 +8,11 @@
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<!--  <script src="<c:url value="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" />"></script>
-		-->
-		<script src="<c:url value="/js/skel.min.js" />"></script>
-		<script src="<c:url value="/js/skel-panels.min.js" />"></script>
-		<script src="<c:url value=" /js/init.js" /> "></script>
+		  <script src="<c:url value="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" />"></script>
+		
+		<script src="<c:url value="js/skel.min.js" />"></script>
+		<script src="<c:url value="js/skel-panels.min.js" />"></script>
+		<script src="<c:url value="js/init.js" /> "></script>
 	
 		
 <!--<script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script> -->
@@ -27,7 +27,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
 		<link rel="stylesheet" href="css/global.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
 	<script src="js/slides.min.jquery.js"></script>
 	<script>
 		$(function(){
