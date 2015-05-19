@@ -91,8 +91,8 @@
 		</div>
 	<!-- Header -->
 	<!--start new jquery -->
-	<div id="container">
-	<div id="example">
+	<div id="banner"> <!-- container -->
+	 <div id="container"><!-- examples -->
 		<img src="img/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon">
 		<div id="slides">
 			<div class="slides_container">
