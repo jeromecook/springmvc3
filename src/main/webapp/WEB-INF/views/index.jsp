@@ -168,12 +168,13 @@
 								<h2>Feugiat Tempus</h2>
 							</header>
 							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-							<!-- <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							-->
+							 <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+						     <a href="#" class="button">More</a>
 							
-							
+							<!-- 
 						    <iframe src="http://cda.gotsport.com/clubsite/?p=9666" width="282" height="150"></iframe>
 							<a href="#" class="button">More</a>
+							-->
 						</section>
 					</div>
 					<div class="3u">
