@@ -1,7 +1,9 @@
-<beans xmlns="http://www.springframework.org/schema/beans"
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:beans="http://www.springframework.org/schema/beans"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
@@ -14,15 +16,41 @@
      <mvc:resources mapping="/js/**" location="/js/" />
      <mvc:resources mapping="/images/**" location="/images/" />
       <mvc:resources mapping="img/**" location="/img/" /> <!-- jquery slider example delete later -->
-     <mvc:view-controller path="/" view-name="index"/>
+      <mvc:view-controller path="/" view-name="index"/> <!-- forwards to homepage -->
+    
+   <!-- Configure to plugin JSON as request and response in method handler 
+    <beans:bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <beans:property name="messageConverters">
+            <beans:list>
+                <beans:ref bean="jsonMessageConverter"/>
+            </beans:list>
+        </beans:property>
+    </beans:bean>
+     -->
+    <!-- Configure bean to convert JSON to POJO and vice versa 
+    <beans:bean id="jsonMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ">
+    </beans:bean> 
+     -->
+     <!-- sampling constructor injections -->
+     <beans:bean id="const" class="model.ConstructorTest">
+     </beans:bean>
+    <!--  <beans:bean id="MappingJacksonHttpMessageConverter" class="org.codehaus.jackson.map.ObjectMapper">
+    </beans:bean>  -->
+    
+    <!-- Configure bean to convert JSON to POJO and vice versa -->
+   <!--  <beans:bean id="jsonMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+    </beans:bean>  -->
+    
+   <!--  <beans:bean id="jSoupDocument" class="org.jsoup.nodes.Document">
+    </beans:bean> -->
      
      <mvc:annotation-driven />
 
  
-    <bean
+    <beans:bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/" />
         <property name="suffix" value=".jsp" />
-    </bean>
+    </beans:bean>
  
-</beans>
+</beans:beans>

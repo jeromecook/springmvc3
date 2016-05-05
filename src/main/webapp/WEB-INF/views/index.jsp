@@ -1,68 +1,32 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <html>
+<!--
+	Ex Machina by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
 	<head>
-		<title>Cookbol, Pro futbol development</title>
+		<title>Cookbol</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		  <script src="<c:url value="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" />"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://embedkit.com/hosted/embedkit.min.js"></script>
 		
-		<script src="<c:url value="js/skel.min.js" />"></script>
-		<script src="<c:url value="js/skel-panels.min.js" />"></script>
-		<script src="<c:url value="js/init.js" /> "></script>
-	
-		
-<!--<script src="<c:url value="/resources/js/jquery.1.10.2.min.js" />"></script> -->
-
-			<link  href="<c:url value="/css/skel-noscript.css" />" rel="stylesheet">
-			<link  href="<c:url value="/css/style.css" />" rel="stylesheet" >
-			<link  href="<c:url value="/css/style-desktop.css" />" rel="stylesheet">
-		
-		
-		
-		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
-		<link rel="stylesheet" href="css/global.css">
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
-	<script src="js/slides.min.jquery.js"></script>
-	<script>
-		$(function(){
-			$('#slides').slides({
-				preload: true,
-				preloadImage: 'img/loading.gif',
-				play: 5000,
-				pause: 2500,
-				hoverPause: true,
-				animationStart: function(current){
-					$('.caption').animate({
-						bottom:-35
-					},100);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationStart on slide: ', current);
-					};
-				},
-				animationComplete: function(current){
-					$('.caption').animate({
-						bottom:0
-					},200);
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationComplete on slide: ', current);
-					};
-				},
-				slidesLoaded: function() {
-					$('.caption').animate({
-						bottom:0
-					},200);
-				}
-			});
-		});
-		</script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
 	<body class="homepage">
 
@@ -72,9 +36,7 @@
 					
 				<!-- Logo -->
 					<div id="logo">
-						<h1><a href="index">Cookbol</a></h1>
-						
-						
+						<h1><a href="#">Cook<i>bol</i></a></h1>
 					</div>
 				
 				<!-- Nav -->
@@ -88,73 +50,24 @@
 					</nav>
 
 			</div>
+			<!-- JSoup output -->
+		<div>
+	<p>
+	${message}
+	
+	</p>
+	</div>	
 		</div>
 	<!-- Header -->
-	<!--start new jquery -->
-	<!-- 
-	<div id="container"> 
-	 <div id="example">
-		<img src="img/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon">
-		<div id="slides">
-			<div class="slides_container">
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-1.jpg" width="570" height="270" alt="Slide 1"></a>
-					<div class="caption" style="bottom:0">
-						<p>Happy Bokeh Thursday!</p>
-					</div>
-				</div>
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
-					<div class="caption">
-						<p>Taxi</p>
-					</div>
-				</div>
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/childofwar/2984345060/" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
-					<div class="caption">
-						<p>Happy Bokeh raining Day</p>
-					</div>
-				</div>
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/b-tal/117037943/" title="We Eat Light | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
-					<div class="caption">
-						<p>We Eat Light</p>
-					</div>
-				</div>
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="&ldquo;I must go down to the sea again, to the lonely sea and the sky; and all I ask is a tall ship and a star to steer her by.&rdquo; | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
-					<div class="caption">
-						<p>&ldquo;I must go down to the sea again, to the lonely sea and the sky...&rdquo;</p>
-					</div>
-				</div>
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/streetpreacher/2078765853/" title="twelve.inch | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-6.jpg" width="570" height="270" alt="Slide 6"></a>
-					<div class="caption">
-						<p>twelve.inch</p>
-					</div>
-				</div>
-				<div class="slide">
-					<a href="http://www.flickr.com/photos/aftab/3152515428/" title="Save my love for loneliness | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-7.jpg" width="570" height="270" alt="Slide 7"></a>
-					<div class="caption">
-						<p>Save my love for loneliness</p>
-					</div>
-				</div>
-			</div>
-			<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
-			<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
-		</div>
-		<img src="img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
-	</div>
- </div>	
- -->
-	<!--end new jquery -->
 		
-
+	
+	
+	<!-- Banner -->
 		<div id="banner">
 			<div class="container">
 			</div>
 		</div>
-
+	<!-- /Banner -->
 
 	<!-- Main -->
 		<div id="page">
@@ -165,25 +78,23 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Feugiat Tempus</h2>
+								<h2>SCDSL</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-							 <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-						     <a href="#" class="button">More</a>
-							
-							<!-- 
-						    <iframe src="http://cda.gotsport.com/clubsite/?p=9666" width="282" height="150"></iframe>
+							<p class="subtitle">One of two the top leagues in Southern California</p>
+							<iframe src="http://www.scdslsoccer.com/standings/2014FallStandings/"></iframe>
+							<!-- <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p> -->
 							<a href="#" class="button">More</a>
-							-->
+							
 						</section>
 					</div>
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Maecenas lectus</h2>
+								<h2>Coast Soccer League</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-							<p><a href="#"><img src="images/pics14.jpg" alt=""></a></p>
+							<p class="subtitle"> The other top league in Southern California</p>
+							<iframe src="http://www.coastsoccer.net/page/show/1221949-home"></iframe>
+							<!-- <p><a href="#"><img src="images/pics14.jpg" alt=""></a></p> -->
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
@@ -193,7 +104,8 @@
 								<h2>Luctus lectus</h2>
 							</header>
 							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-							<p><a href="#"><img src="images/pics15.jpg" alt=""></a></p>
+							
+                           <iframe src="https://www.youtube.com/embed/yWErpnR1FN8" frameborder="0" allowfullscreen></iframe>							<!-- <p><a href="#"><img src="images/pics15.jpg" alt=""></a></p> -->
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
@@ -379,6 +291,7 @@
 				</div>
 			</div>
 		</div>
+		
 	<!-- /Footer -->
 
 	<!-- Copyright -->
