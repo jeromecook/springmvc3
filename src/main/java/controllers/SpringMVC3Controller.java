@@ -24,7 +24,7 @@ public class SpringMVC3Controller {
 	
 	
   
-	/*SpringMVC3Controller(){
+	SpringMVC3Controller(){
 	   System.out.println("defalut contructor" + contTest);
 	 //  System.out.println("hitting contsTest: "+ contTest.shoot());
    }
@@ -32,7 +32,7 @@ public class SpringMVC3Controller {
    SpringMVC3Controller(ConstructorTest contTest){
 	  System.out.println("in Spring MVC3 Controller"); 
 	  this.contTest = contTest;
-   }*/
+   }
     @RequestMapping("/hello")
     public String sayHelloToOpenShift(){
     	
