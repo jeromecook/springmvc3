@@ -53,7 +53,7 @@
 			<!-- JSoup output -->
 		<div>
 	<p>
-	${message}
+	${users}
 	
 	</p>
 	</div>	

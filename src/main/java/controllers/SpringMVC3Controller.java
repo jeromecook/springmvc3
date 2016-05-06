@@ -102,7 +102,7 @@ public class SpringMVC3Controller {
       // String url="http://localhost:8080/SpringServiceJsonSample/service/user/"; 
        String url ="http://api.football-data.org//alpha/soccerseasons/";
        String url_league ="http://api.football-data.org/alpha/soccerseasons/{BL1}/leagueTable/";
-       List<LinkedHashMap> users=restTemplate.getForObject(url_league, List.class);
+       List<LinkedHashMap> users=restTemplate.getForObject(url, List.class);
           System.out.println("users: " + users);
              return new ModelAndView("index", "users", users);
     
