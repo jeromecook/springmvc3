@@ -36,7 +36,8 @@
 					
 				<!-- Logo -->
 					<div id="logo">
-						<h1><a href="#">Cook<i>bol</i></a></h1>
+						<h1><a href="#">real<i> Cook</i></a></h1>
+						Realty company tm
 					</div>
 				
 				<!-- Nav -->
@@ -53,7 +54,7 @@
 			<!-- JSoup output -->
 		<div>
 	<p>
-	${users}
+	${message}
 	
 	</p>
 	</div>	
@@ -71,6 +72,11 @@
 
 	<!-- Main -->
 		<div id="page">
+		<div>
+		!-- Amortization Calculator Widget START --><script src="http://usmortgagecalculator.org/widget/2.0/js/amortizationcalc-loader.min.js" type="text/javascript"></script><div id="acww-widgetwrapper" style="min-width:250px;width:100%;">
+     	 	<div id="acww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;"></div><div id="acww-more" style="background:#333;font:normal 13px/1 Helvetica, Arial, Verdana, Sans-serif;padding:10px 0;color:#FFF;text-align:center;width:100%;clear:both;margin:0;clear:both;float:left;"><a style="background:#333;color:#FFF;text-decoration:none;border-bottom:1px dotted #ccc;" href="http://usmortgagecalculator.org/" title="Mortgage Calculator" rel="nofollow" target="_blank">usmortgagecalculator.org</a>
+     	 		</div>
+     	 	</div><!-- Amortization Calculator Widget END -->		</div>
 
 			<!-- Extra -->
 			<div id="marketing" class="container">
@@ -78,11 +84,10 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>SCDSL</h2>
+								<h2>Smart Sell</h2>
 							</header>
-							<p class="subtitle">One of two the top leagues in Southern California</p>
-							<iframe src="http://www.scdslsoccer.com/standings/2014FallStandings/"></iframe>
-							<!-- <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p> -->
+							<p class="subtitle">When do I sell for Profit</p>							
+							 <p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 							
 						</section>
@@ -90,11 +95,10 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Coast Soccer League</h2>
+								<h2>Home Investment</h2>
 							</header>
-							<p class="subtitle"> The other top league in Southern California</p>
-							<iframe src="http://www.coastsoccer.net/page/show/1221949-home"></iframe>
-							<!-- <p><a href="#"><img src="images/pics14.jpg" alt=""></a></p> -->
+							<p class="subtitle">Make real money on your home</p>							
+							 <p><a href="#"><img src="images/pics14.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
@@ -103,9 +107,8 @@
 							<header>
 								<h2>Luctus lectus</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-							
-                           <iframe src="https://www.youtube.com/embed/yWErpnR1FN8" frameborder="0" allowfullscreen></iframe>							<!-- <p><a href="#"><img src="images/pics15.jpg" alt=""></a></p> -->
+							<p class="subtitle">In posuere eleifend odio.</p>							
+                           <p><a href="#"><img src="images/pics15.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
@@ -114,7 +117,7 @@
 							<header>
 								<h2>Posuere eleifend</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+							<p class="subtitle">In posuere eleifend odio. </p>
 							<p><a href="#"><img src="images/pics16.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>

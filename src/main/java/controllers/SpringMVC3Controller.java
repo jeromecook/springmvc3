@@ -1,12 +1,15 @@
 package controllers;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import model.ConstructorTest;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Controller;
@@ -15,6 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
+
+import TO.UnMarshXml;
 
 
  
@@ -42,7 +47,9 @@ public class SpringMVC3Controller {
     @RequestMapping(value = "/index" , method= RequestMethod.GET)
     public String homePage(ModelMap model){
     	Document doc;
-    	Elements boys = null;
+    	Elements tableTag = null;
+    	Elements list = null;
+    	Elements bob = null;
     	
     	try {
 			 doc = Jsoup
@@ -51,19 +58,42 @@ public class SpringMVC3Controller {
 					.get();
     		
 			String title = doc.title();
-			 boys = doc.select("table.stand-list-tbl-1");
+			 //boys = doc.select("table.stand-list-tbl-1");
+			//tableTag = doc.getElementsByClass("tbl-stand-list");
+			//Elements a = tableTag.get(0).getElementsByTag("a");
+			Element a = doc.select("tbl-stand-list").first();
+			String stand = a.text();
+			System.out.println(stand);
+			// list = tableTag.getAllElements();
+		//	tableTag = doc.getElementsByClass("tg-hd");
+		//	bob = tableTag.get(0).getElementsByTag("td");
+			
+			// list = tableTag.get(0).getElementsByTag("tr");
+			 //bob = tableTag.getElementsByAttribute("tr");
+
 			System.out.println(title);
-			System.out.println(boys);
+			//System.out.println("length of element: " + a.size());
+			/*
+			for(Element ttag: a){
+				
+				 System.out.println(ttag);
+			}
+			 */
+			
+			for(Element lst: list)
+			System.out.println(lst);
     		/*doc = Jsoup.parse("<html><tr><td> Special list </td></tr></html>");
     		boys = doc.select("td");
     		System.out.println(boys);*/
 
 		} catch (Exception e) {
 			// TODO: handle exception
+			
+			System.out.println(e);
 		}
     	
 		System.out.println("in the homepage constroller");
-    	model.addAttribute("message", boys);
+    	model.addAttribute("message", list);
         return "index";
     }
     @RequestMapping(value = "/left-sidebar" , method= RequestMethod.GET)
@@ -94,10 +124,16 @@ public class SpringMVC3Controller {
         restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
       // String url="http://localhost:8080/SpringServiceJsonSample/service/user/"; 
-       String url ="http://api.football-data.org//alpha/soccerseasons/";
-       String url_league ="http://api.football-data.org/alpha/soccerseasons/{BL1}/leagueTable/";
-       List<LinkedHashMap> users=restTemplate.getForObject(url, List.class);
-          System.out.println("users: " + users);
+       //String url ="http://api.football-data.org//alpha/soccerseasons/";
+       String url = "http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=X1-ZWz1esttgz9ekr_9ljvt&zpid=48749425";
+        String url_league ="http://api.football-data.org/alpha/soccerseasons/{BL1}/leagueTable/";
+       //List<LinkedHashMap> users=restTemplate.getForObject(url, List.class);
+      //String users=restTemplate.getForObject(url, String.class);
+      String users = "hello";
+     // System.out.println("UnMarshall" + UnMarshXml.jaxbXMLToObject(url));
+      
+      
+        System.out.println("users: " + users);
              return new ModelAndView("index", "users", users);
     
          }
@@ -106,7 +142,7 @@ public class SpringMVC3Controller {
     
     
     public void consTest(ConstructorTest ct){
-    	//ct.shoot();
+    	ct.shoot();
     	System.out.println("here" + ct);
     
     }
