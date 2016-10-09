@@ -96,23 +96,40 @@ public class SpringMVC3Controller {
     	model.addAttribute("message", list);
         return "index";
     }
-    @RequestMapping(value = "/left-sidebar" , method= RequestMethod.GET)
+    
+    @RequestMapping(value = "/services" , method= RequestMethod.GET)
     public String leftSideBar(ModelMap model){
-    	System.out.println("left in the homepage constroller");
+    	
     	model.addAttribute("message", "left Controller");
-        return "left-sidebar";
+        return "services";
     }
-    @RequestMapping(value = "/right-sidebar" , method= RequestMethod.GET)
+    
+    @RequestMapping(value = "/contact" , method= RequestMethod.GET)
     public String rightSideBar(ModelMap model){
-    	System.out.println(" right in the homepage constroller");
+    	
     	model.addAttribute("message", "right Controller");
-        return "right-sidebar";
+        return "contact";
     }
-    @RequestMapping(value = "/no-sidebar", method=RequestMethod.GET)
+    
+    @RequestMapping(value = "/portfolio", method=RequestMethod.GET)
     public String noSideBar(ModelMap model){
-    	System.out.println("no sidebar in the homepage constroller");
+    	
     	model.addAttribute("message", "no sidebar constroller");
-    	return "no-sidebar";
+    	return "portfolio";
+    }
+    
+    @RequestMapping(value = "/blog", method=RequestMethod.GET)
+    public String blog(ModelMap model){
+    	
+    	model.addAttribute("message", "no sidebar constroller");
+    	return "blog";
+    }
+    
+    @RequestMapping(value = "/about", method=RequestMethod.GET)
+    public String about(ModelMap model){
+    	
+    	model.addAttribute("message", "no sidebar constroller");
+    	return "about";
     }
     
     @RequestMapping("/listUsers")
