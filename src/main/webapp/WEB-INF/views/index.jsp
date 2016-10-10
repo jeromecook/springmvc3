@@ -195,7 +195,7 @@
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h3>What We Do</h3>
 						<p>The world has changed, technology and  social marketing is the new driving force of Realty.
-						  Etjec has 15 years of modern web developlment, social marketing and 
+						  Etjec has 15 years of modern web technology, social marketing and 
 						 20 years of Real Estate knowledge. </p>
 					</div>
 				</div>
@@ -205,42 +205,48 @@
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
 							<span><i class="icon-browser"></i></span>
-							<h3>Web Development</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3>Sell\Listing your home</h3>
+							<p>Top agents strive to sell your house for the most amount of money in the shortest amount of time.  </p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
 							<span><i class="icon-mobile"></i></span>
-							<h3>Mobile Apps</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3>WE NEGOTIATE ON YOUR BEHALF</h3>
+							<p>An experienced third-party negotiator familiar with all aspects of selling homes is best qualified to negotiate your sales contract.
+							  When you have a trained negotiator in your corner, the sales process is far less stressful.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
 							<span><i class="icon-tools"></i></span>
-							<h3>UX Design</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3>Buying</h3>
+							<p>Finding your home can be one of the most stressful times people go through.
+							 Etjec aims to provide our agents with everything they need to make the process of buying or selling a home as simple,
+							  easy, and as comfortable as it can possibly be. 
+							The moment you find your home is as special to us as it is to you.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
 							<span><i class="icon-video"></i></span>
-							<h3>Video Editing</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3>Real Estate Investing</h3>
+							<p>Our specialty:
+							Start you own business with real estate. Become a landlord 10% ROI, Flipping Houses up 40% ROI.
+							   </p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
 							<span><i class="icon-search"></i></span>
-							<h3>SEO Ranking</h3>
+							<h3>Contact</h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
 							<span><i class="icon-cloud"></i></span>
-							<h3>Cloud Based Apps</h3>
+							<h3>About</h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
 					</div>

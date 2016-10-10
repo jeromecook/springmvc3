@@ -46,54 +46,9 @@ public class SpringMVC3Controller {
     
     @RequestMapping(value = "/index" , method= RequestMethod.GET)
     public String homePage(ModelMap model){
-    	Document doc;
-    	Elements tableTag = null;
-    	Elements list = null;
-    	Elements bob = null;
     	
-    	try {
-			 doc = Jsoup
-					.connect(
-							"http://www.scdslsoccer.com/standings/2014FallStandings/")
-					.get();
-    		
-			String title = doc.title();
-			 //boys = doc.select("table.stand-list-tbl-1");
-			//tableTag = doc.getElementsByClass("tbl-stand-list");
-			//Elements a = tableTag.get(0).getElementsByTag("a");
-			Element a = doc.select("tbl-stand-list").first();
-			String stand = a.text();
-			System.out.println(stand);
-			// list = tableTag.getAllElements();
-		//	tableTag = doc.getElementsByClass("tg-hd");
-		//	bob = tableTag.get(0).getElementsByTag("td");
-			
-			// list = tableTag.get(0).getElementsByTag("tr");
-			 //bob = tableTag.getElementsByAttribute("tr");
 
-			System.out.println(title);
-			//System.out.println("length of element: " + a.size());
-			/*
-			for(Element ttag: a){
-				
-				 System.out.println(ttag);
-			}
-			 */
-			
-			for(Element lst: list)
-			System.out.println(lst);
-    		/*doc = Jsoup.parse("<html><tr><td> Special list </td></tr></html>");
-    		boys = doc.select("td");
-    		System.out.println(boys);*/
-
-		} catch (Exception e) {
-			// TODO: handle exception
-			
-			System.out.println(e);
-		}
-    	
-		System.out.println("in the homepage constroller");
-    	model.addAttribute("message", list);
+    	model.addAttribute("message", model);
         return "index";
     }
     
