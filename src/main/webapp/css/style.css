@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1136,5 +1136,18 @@ figure {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
+
+/* Begin google fonts */
+/* google icon fonts sizes */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+/* google icon fonts colors */
+.material-icons.orange600 { color: #FB8C00; }
+.material-icons.yellow100 {color: #FCC72C; }
+
+/* end google fonts */
+
 
 /*# sourceMappingURL=style.css.map */
