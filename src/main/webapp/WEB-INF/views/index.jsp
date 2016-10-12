@@ -7,10 +7,10 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Guardian &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Guardian &mdash; Etjec Realty, Expert consultant group, residential and property investments</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="description" content="Etjec Realty Home and property service" />
+	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, Land, sell, buy, list, residential" />
 	<meta name="author" content="FREEHTML5.CO" />
 
   <!-- 
