@@ -53,6 +53,10 @@
 	<link rel="stylesheet" href="css/superfish.css">
 
 	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- google icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 
 	<!-- Modernizr JS -->
@@ -204,32 +208,50 @@
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<span><i class="icon-browser"></i></span>
-							<h3>Sell\Listing your home</h3>
+							<span><i class="material-icons md-48 yellow100">home</i></span>
+							<!-- <span><i class="icon-browser"></i></span>  -->
+							<h3>List</h3>
 							<p>Top agents strive to sell your house for the most amount of money in the shortest amount of time.  </p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<span><i class="icon-mobile"></i></span>
-							<h3>WE NEGOTIATE ON YOUR BEHALF</h3>
-							<p>An experienced third-party negotiator familiar with all aspects of selling homes is best qualified to negotiate your sales contract.
-							  When you have a trained negotiator in your corner, the sales process is far less stressful.</p>
+						<span>
+						<i class="material-icons md-48 yellow100">traffic</i>
+						</span>
+							<!-- <span><i class="icon-mobile"></i></span>  -->
+							<h3> NEGOTIATE</h3>
+							<!-- <p>An experienced third-party negotiator familiar with all aspects of selling homes is best qualified to negotiate your sales contract.
+							  -->
+							 <p>When you have a trained negotiator in your corner, the sales process is far less stressful.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<span><i class="icon-tools"></i></span>
+						<span>
+						<i class="material-icons md-48 yellow100">business_center</i>
+						</span>	
+							<!-- <span><i class="icon-tools"></i></span>
+							 -->
 							<h3>Buying</h3>
+							<p>
+							<p>The moment you find your home is as special to us as it is to you.
+							We have everything you need to find your home.
+							</p>
+							<!-- 
 							<p>Finding your home can be one of the most stressful times people go through.
 							 Etjec aims to provide our agents with everything they need to make the process of buying or selling a home as simple,
 							  easy, and as comfortable as it can possibly be. 
 							The moment you find your home is as special to us as it is to you.</p>
+							 -->
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-video"></i></span>
+						<div class="services animate-box">						
+						<span>
+						<i class="material-icons md-48 yellow100">build</i>
+						</span>
+							<!-- <span><i class="icon-video"></i></span>  -->
 							<h3>Real Estate Investing</h3>
 							<p>Our specialty:
 							Start you own business with real estate. Become a landlord 10% ROI, Flipping Houses up 40% ROI.
@@ -238,14 +260,20 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<span><i class="icon-search"></i></span>
+						<span>
+						<i class="material-icons md-48 yellow100">phonelink_ring</i>
+						</span>
+							<!-- <span><i class="icon-search"></i></span>  -->
 							<h3>Contact</h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<span><i class="icon-cloud"></i></span>
+						<span>
+						<i class="material-icons md-48 yellow100">group</i>
+						</span>
+							<!-- <span><i class="icon-cloud"></i></span>  -->
 							<h3>About</h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
