@@ -10,7 +10,7 @@
 	<title>Guardian &mdash; Etjec Realty, Expert consultant group, residential and property investments</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Etjec Realty Home and property service" />
-	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, Land, sell, buy, list, residential" />
+	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, Land, sell, buy, list, residential," />
 	<meta name="author" content="FREEHTML5.CO" />
 
   <!-- 
