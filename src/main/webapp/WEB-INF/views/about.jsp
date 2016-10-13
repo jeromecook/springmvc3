@@ -7,11 +7,11 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Guardian &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Etjec  &mdash;  Real Estate expert consultant group: residential and property investments</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="Etjec Realty Home and property service" />
+	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, Land, sell, buy, list, residential" />
+	<meta name="author" content="Etjec Realty Jerome Cook" />
 
   <!-- 
 	//////////////////////////////////////////////////////
@@ -71,7 +71,7 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html">Guar<span>dian</span></a></h1>
+						<h1 id="fh5co-logo"><a href="index.html"><span><i> Etjec</i></span> Realty</a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
@@ -80,6 +80,7 @@
 								</li>
 								<li>
 									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
 										<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
@@ -88,9 +89,11 @@
 										<li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
 										<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
 									</ul>
+								 -->	
 								</li>
 								<li>
 									<a href="services.html" class="fh5co-sub-ddown">Services</a>
+									<!--  
 									 <ul class="fh5co-sub-menu">
 									 	<li><a href="left-sidebar.html">Web Development</a></li>
 									 	<li><a href="right-sidebar.html">Branding &amp; Identity</a></li>
@@ -109,10 +112,11 @@
 										<li><a href="#">Copywriting</a></li>
 										<li><a href="#">Photography</a></li> 
 									</ul>
+								 -->
 								</li>
-								<li class="active"><a href="about.html">About</a></li>
+								<li><a href="about.html">About</a></li>
 								<li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -124,10 +128,10 @@
 
 		<div class="fh5co-hero fh5co-hero-2">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/about-image.jpg);">
+			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/collaborate-1.jpg);">
 				<div class="desc animate-box">
 					<h2>About Us</h2>
-					<span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span>
+					<!--  <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
 				</div>
 			</div>
 		</div>
@@ -137,7 +141,11 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h3>About Us</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+						<p>Striving for perfection, a team of Investors, Real Estate Agents, and Building Contractors.</p>
+						  <p> Etjec uses strategic planning and data analysis for all residential, commercial and investments transactions.</p>  
+							<p>We coordinate all projects with accuracy, weather it's a simple purchase, sell or purchase with remodel in-mind.
+							Investment properties: our team searches daily for below value properties and our network of investors make our hunt limitless.
+						</p>
 					</div>
 				</div>
 			</div>

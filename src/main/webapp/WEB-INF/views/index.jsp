@@ -11,21 +11,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Etjec Realty Home and property service" />
 	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, Land, sell, buy, list, residential" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="author" content="Etjec Realty Jerome Cook" />
 
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
+  
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -84,6 +72,7 @@
 								</li>
 								<li>
 									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
 										<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
@@ -92,9 +81,11 @@
 										<li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
 										<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
 									</ul>
+								 -->	
 								</li>
 								<li>
-									<a href="services" class="fh5co-sub-ddown">Services</a>
+									<a href="services.html" class="fh5co-sub-ddown">Services</a>
+									<!--  
 									 <ul class="fh5co-sub-menu">
 									 	<li><a href="left-sidebar.html">Web Development</a></li>
 									 	<li><a href="right-sidebar.html">Branding &amp; Identity</a></li>
@@ -113,10 +104,11 @@
 										<li><a href="#">Copywriting</a></li>
 										<li><a href="#">Photography</a></li> 
 									</ul>
+								 -->
 								</li>
-								<li><a href="about">About</a></li>
-								<li><a href="blog">Blog</a></li>
-								<li><a href="contact">Contact</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -143,7 +135,7 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h3>Selected Listings</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -199,7 +191,7 @@
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h3>What We Do</h3>
 						<p>The world has changed, technology and  social marketing is the new driving force of Realty.
-						  Etjec has 15 years of modern web technology, social marketing and 
+						  Etjec has 15 years of modern online technology, social marketing and 
 						 20 years of Real Estate knowledge. </p>
 					</div>
 				</div>
@@ -275,7 +267,7 @@
 						</span>
 							<!-- <span><i class="icon-cloud"></i></span>  -->
 							<h3>About</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>Striving for perfection, a team of Investors, Real Estate Agents, and Contractors</p>
 						</div>
 					</div>
 				</div>
@@ -377,6 +369,7 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
+							<p> Etjec Design and Web developlment </p>
 							<p>Copyright 2016 Free Html5 <a href="#">Guardian</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
 						</div>
 					</div>
