@@ -7,11 +7,11 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Guardian &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Etjec  &mdash;  Real Estate expert consultant group: residential and property investments</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="Etjec Realty Home and property service" />
+	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, investment property, Flip house, Land, sell, buy, list, residential" />
+	<meta name="author" content="Etjec Realty Jerome Cook" />
 
   <!-- 
 	//////////////////////////////////////////////////////
@@ -71,7 +71,7 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html">Guar<span>dian</span></a></h1>
+						<h1 id="fh5co-logo"><a href="index.html"><span><i>Etjec</i></span> Realty</a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
@@ -131,7 +131,7 @@
 			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/blog-2.jpg);">
 				<div class="desc animate-box">
 					<h2>Our Projects</h2>
-					<span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span>
+					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
 				</div>
 			</div>
 		</div>
@@ -225,8 +225,14 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
+							<p> Jerome Cook</p>
+ 							<p>  17592 E 17th St #100, Tustin, CA 92780<p>
+							 <p> Phone: 562-225-9511 </p>
+							
+							
+							<p> Etjec Design and Web developlment </p>
 							<p>Copyright 2016 Free Html5 <a href="#">Guardian</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
-						</div>
+ 						</div>
 					</div>
 				</div>
 			</div>

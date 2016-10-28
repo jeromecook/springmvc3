@@ -10,7 +10,7 @@
 	<title>Etjec  &mdash;  Real Estate expert consultant group: residential and property investments</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Etjec Realty Home and property service" />
-	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, Land, sell, buy, list, residential" />
+	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, investment property, Flip house, Land, sell, buy, list, residential" />
 	<meta name="author" content="Etjec Realty Jerome Cook" />
 
   <!-- 
@@ -145,6 +145,7 @@
 							<h3 class="section-title">Our Address</h3>
 							<p></p>
 							<ul class="contact-info">
+							<li><i class="icon-location-pin"></i><p> Jerome Cook</p></li>
 								<li><i class="icon-location-pin"></i>17592 E 17th St #100, Tustin, CA 92780</li>
 								<li><i class="icon-phone2"></i>562-225-9511</li>
 								<li><i class="icon-mail"></i><a href="#">info@yoursite.com</a></li>
@@ -194,8 +195,14 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
+							<p> Jerome Cook</p>
+ 							<p>  17592 E 17th St #100, Tustin, CA 92780<p>
+							 <p> Phone: 562-225-9511 </p>
+							
+							
+							<p> Etjec Design and Web developlment </p>
 							<p>Copyright 2016 Free Html5 <a href="#">Guardian</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
-						</div>
+ 						</div>
 					</div>
 				</div>
 			</div>
