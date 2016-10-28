@@ -286,7 +286,15 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
+	
+    <!-- live Supporti chat  -->
+		<script type='text/javascript'>
+	    (function() {
+	    var s = document.createElement('script');s.type='text/javascript';s.async=true;s.id='lsInitScript';
+	    s.src='https://livesupporti.com/Scripts/clientAsync.js?acc=e584c724-311d-4d43-a189-fbda1f402634&skin=Modern';
+	    var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
+	    })();
+	    </script>
 	</body>
 </html>
 
