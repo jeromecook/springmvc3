@@ -148,8 +148,8 @@
 							<li><i class="icon-location-pin"></i><p> Jerome Cook</p></li>
 								<li><i class="icon-location-pin"></i>17592 E 17th St #100, Tustin, CA 92780</li>
 								<li><i class="icon-phone2"></i>562-225-9511</li>
-								<li><i class="icon-mail"></i><a href="#">info@yoursite.com</a></li>
-								<li><i class="icon-globe2"></i><a href="#">www.yoursite.com</a></li>
+								<li><i class="icon-mail"></i><a href="#">JeromeCook@etjec.com</a></li>
+								<li><i class="icon-globe2"></i><a href="#">www.etjec.com</a></li>
 							</ul>
 						</div>
 						<div class="col-md-6">
@@ -198,6 +198,7 @@
 							<p> Jerome Cook</p>
  							<p>  17592 E 17th St #100, Tustin, CA 92780<p>
 							 <p> Phone: 562-225-9511 </p>
+							 <p> Email: JeromeCook@etjec.com </p>
 							
 							
 							<p> Etjec Design and Web developlment </p>
