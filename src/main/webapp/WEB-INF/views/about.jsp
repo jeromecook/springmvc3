@@ -143,7 +143,7 @@
 						<h3>About Us</h3>
 						<p>Striving for perfection, a team of Investors, Real Estate Agents, and Building Contractors.</p>
 						  <p> Etjec uses strategic planning and data analysis for all residential, commercial and investments transactions.</p>  
-							<p>We coordinate all projects with accuracy, weather it's a simple purchase, sell or purchase with remodel in-mind.
+							<p>We coordinate all projects with accuracy, whether it's a simple purchase, sell or purchase with remodel in-mind.
 							Investment properties: our team searches daily for below value properties and our network of investors make our hunt limitless.
 						</p>
 					</div>
