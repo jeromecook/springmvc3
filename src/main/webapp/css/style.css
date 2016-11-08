@@ -1155,5 +1155,13 @@ figure {
 
 /* end google fonts */
 
+/* Body photo Image */
+img {
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    z-index: 1;
+}
+
 
 /*# sourceMappingURL=style.css.map */
