@@ -72,7 +72,7 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<a href="portfolio.html" class="fh5co-sub-ddown">Listings</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
@@ -108,7 +108,7 @@
 								 -->
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<!--  <li><a href="blog.html">Blog</a></li> -->
 								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -202,7 +202,7 @@
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<span><i class="material-icons md-48 yellow100">home</i></span>
+							<a href="portfolio.html"> <span><i class="material-icons md-48 yellow100">home</i></span> </a>
 							<!-- <span><i class="icon-browser"></i></span>  -->
 							<h3>List</h3>
 							<p>Top agents strive to sell your house for the most amount of money in the shortest amount of time.  </p>
@@ -210,9 +210,11 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
+						<a href="portfolio.html">
 						<span>
 						<i class="material-icons md-48 yellow100">traffic</i>
 						</span>
+						</a>
 							<!-- <span><i class="icon-mobile"></i></span>  -->
 							<h3> NEGOTIATE</h3>
 							<!-- <p>An experienced third-party negotiator familiar with all aspects of selling homes is best qualified to negotiate your sales contract.
@@ -222,9 +224,11 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
+						<a href="portfolio.html">
 						<span>
 						<i class="material-icons md-48 yellow100">business_center</i>
-						</span>	
+						</span>
+						</a>	
 							<!-- <span><i class="icon-tools"></i></span>
 							 -->
 							<h3>Buying</h3>
@@ -241,10 +245,12 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">						
+						<div class="services animate-box">	
+						<a href="portfolio.html">					
 						<span>
 						<i class="material-icons md-48 yellow100">build</i>
 						</span>
+						</a>
 							<!-- <span><i class="icon-video"></i></span>  -->
 							<h3>Real Estate Investing</h3>
 							<p>Our specialty:
@@ -254,19 +260,23 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
+						<a href="contact.html">
 						<span>
 						<i class="material-icons md-48 yellow100">phonelink_ring</i>
 						</span>
+						</a>
 							<!-- <span><i class="icon-search"></i></span>  -->
 							<h3>Contact</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>Communication is key. We are available via chat, email, text, voice, or in person.</p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
+						<a href="about.html">
 						<span>
 						<i class="material-icons md-48 yellow100">group</i>
 						</span>
+						</a>
 							<!-- <span><i class="icon-cloud"></i></span>  -->
 							<h3>About</h3>
 							<p>Striving for perfection, a team of Investors, Real Estate Agents, and Contractors</p>
@@ -276,6 +286,7 @@
 			</div>
 		</div>
 		<!-- fh5co-services-section -->
+		<!-- 
 		<div id="fh5co-content-section">
 			<div class="container">
 				<div class="row">
@@ -301,7 +312,9 @@
 				</div>
 			</div>
 		</div>
+		 -->
 		<!-- fh5co-content-section -->
+		<!-- 
 		<div id="fh5co-blog-section" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
@@ -358,6 +371,7 @@
 				</div>
 			</div>
 		</div>
+		 -->
 		<!-- fh5co-blog-section -->
 		<footer>
 			<div id="footer">

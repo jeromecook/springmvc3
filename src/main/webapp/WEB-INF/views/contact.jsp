@@ -79,7 +79,7 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<a href="portfolio.html" class="fh5co-sub-ddown">Listings</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
@@ -115,7 +115,7 @@
 								 -->
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<!--  <li><a href="blog.html">Blog</a></li> -->
 								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -147,6 +147,7 @@
 							<p></p>
 							<ul class="contact-info">
 							<li><i class="icon-location-pin"></i><p> Jerome Cook</p></li>
+							    <li>Realty Masters Inc Brokerage</li>
 								<li><i class="icon-location-pin"></i>17592 E 17th St #100, Tustin, CA 92780</li>
 								<li><i class="icon-phone2"></i>562-225-9511</li>
 								<li><i class="icon-mail"></i><a href="#">JeromeCook@etjec.com</a></li>

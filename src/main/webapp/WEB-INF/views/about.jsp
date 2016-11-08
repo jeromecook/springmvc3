@@ -79,7 +79,7 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<a href="portfolio.html" class="fh5co-sub-ddown">Listings</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
@@ -115,7 +115,7 @@
 								 -->
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<!--  <li><a href="blog.html">Blog</a></li> -->
 								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -141,14 +141,15 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h3>About Us</h3>
-						<p>Striving for perfection, a team of Investors, Real Estate Agents, and Building Contractors.</p>
-						  <p> Etjec uses strategic planning and data analysis for all residential, commercial and investments transactions.</p>  
+						<p>Striving for perfection, a team of Investors, Real Estate Agents, and Building Contractors.
+						   Etjec uses strategic planning and data analysis for all residential, commercial and investments transactions.</p>  
 							<p>We coordinate all projects with accuracy, whether it's a simple purchase, sell or purchase with remodel in-mind.
 							Investment properties: our team searches daily for below value properties and our network of investors make our hunt limitless.
 						</p>
 					</div>
 				</div>
 			</div>
+			<!-- 
 			<div class="container">
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12 animate-box">
@@ -157,15 +158,19 @@
 						</figure>
 					</div>
 				</div>
+				
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 animate-box">
 						<h3>Simple &amp; Humble Beginning</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum perspiciatis, debitis pariatur atque vitae sed blanditiis nobis sint, reprehenderit quas, natus corrupti! Ipsum cum possimus corporis aut architecto! Delectus enim adipisci quidem possimus voluptates! Aut ut aliquid molestias laudantium.</p>
 					</div>
 				</div>
+				
 			</div>
+			 -->
 		</div>
 		<!-- END fh5co-about -->
+		<!-- 
 		<div id="fh5co-content-section" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
@@ -191,7 +196,9 @@
 				</div>
 			</div>
 		</div>
+		-->
 		<!-- fh5co-content-section -->
+		<!-- 
 		<div id="fh5co-services-section">
 			<div class="container">
 				<div class="row">
@@ -201,6 +208,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-4">
@@ -246,8 +254,9 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>			
 		</div>
+		 -->
 		<!-- END fh5co-services-section -->
 	
 		<footer>

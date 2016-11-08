@@ -70,7 +70,7 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<a href="portfolio.html" class="fh5co-sub-ddown">Listings</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
@@ -106,7 +106,7 @@
 								 -->
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<!--  <li><a href="blog.html">Blog</a></li> -->
 								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -225,9 +225,11 @@
 				<div class="row row-bottom-padded-lg">
 					<div class="col-md-3">
 						<div class="fh5co-icon">
+						<a href="contact.html">
 						  <span>
 						    <i class="material-icons md-48 yellow100">phonelink_ring</i>
 						  </span>
+						  </a>
 							<!-- <span><i class="icon-search"></i></span>  --></div>
 					    </div>
 					<div class="col-md-8 col-md-push-1">
@@ -250,9 +252,11 @@
 				<div class="row">
 					<div class="col-md-3 col-md-push-8">
 						<div class="fh5co-icon">
+						   <a href="about.html">
 						   <span>
 						     <i class="material-icons md-48 yellow100">group</i>
 						   </span>
+						   </a>
 							<!-- <span><i class="icon-cloud"></i></span>  -->
 						</div>
 					</div>

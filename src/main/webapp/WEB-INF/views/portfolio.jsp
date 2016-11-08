@@ -79,7 +79,7 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
+									<a href="portfolio.html" class="fh5co-sub-ddown">Listings</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
@@ -115,7 +115,7 @@
 								 -->
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<!--  <li><a href="blog.html">Blog</a></li> -->
 								<li class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -130,7 +130,7 @@
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/blog-2.jpg);">
 				<div class="desc animate-box">
-					<h2>Our Projects</h2>
+					<h2>Our Listings</h2>
 					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
 				</div>
 			</div>
@@ -140,8 +140,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Outstanding Projects</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+						<h3>Featured Listings</h3>
+						<p> Real Estate for you.</p>
 					</div>
 				</div>
 			</div>
