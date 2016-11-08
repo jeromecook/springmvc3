@@ -63,6 +63,7 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+						
 						<h1 id="fh5co-logo"><a href="index.html"><span><i>Etjec</i></span> Realty</a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
@@ -122,6 +123,7 @@
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/home-image.jpg);">
 				<div class="desc animate-box">
+					<img src="images/upperBodyForwardSuitTie.png" width=300 height="475" alt="Jerome Cook">
 					<h2>Professional Realty</h2>
 					<span>Execute your dream. <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name"></a></span>
 					<span><a class="btn btn-primary" href="#">Get Started</a></span>
