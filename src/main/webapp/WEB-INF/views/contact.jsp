@@ -147,6 +147,7 @@
 							<p></p>
 							<ul class="contact-info">
 							<li><i class="icon-location-pin"></i><p> Jerome Cook</p></li>
+							<li><i> BRE License #01993591</i>
 							    <li>Realty Masters Inc Brokerage</li>
 								<li><i class="icon-location-pin"></i>17592 E 17th St #100, Tustin, CA 92780</li>
 								<li><i class="icon-phone2"></i>562-225-9511</li>
