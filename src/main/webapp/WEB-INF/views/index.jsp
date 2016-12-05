@@ -137,7 +137,8 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h3>Selected Listings</h3>
-						<p></p>
+
+ 					<p></p>
 					</div>
 				</div>
 			</div>
