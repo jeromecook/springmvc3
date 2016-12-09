@@ -188,7 +188,7 @@
 								<img src="images/user-1.jpg" alt="user">
 							</figure>
 							<blockquote>
-								<p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”</p>
+								<p>âCreativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didnât really do it, they just saw something. It seemed obvious to them after a while.â</p>
 							</blockquote>
 							<span>Steve Jobs, Apple Inc.</span>
 						</div>
@@ -273,7 +273,7 @@
 							</p>
 							<p> Jerome Cook</p>
  							<p> 17592 E 17th St #100, Tustin, CA 92780<p>
-							 <p> Phone: 562-225-9511 </p>
+							 <p> Phone: 818-927-3282 </p>
 							
 							
 							<p> Etjec Design and Web developlment </p>
