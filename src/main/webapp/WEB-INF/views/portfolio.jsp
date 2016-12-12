@@ -128,7 +128,7 @@
 
 		<div class="fh5co-hero fh5co-hero-2">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/blog-2.jpg);">
+			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/ListingLocalMap.jpg);">
 				<div class="desc animate-box">
 					<h2>Our Listings</h2>
 					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
