@@ -227,7 +227,7 @@
 							</p>
 							<p> Jerome Cook</p>
  							<p>  17592 E 17th St #100, Tustin, CA 92780<p>
-							 <p> Phone: 818-927-3282 </p>
+							 <p> Phone: 562-225-9511 </p>
 							
 							
 							<p> Etjec Design and Web developlment </p>
