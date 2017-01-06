@@ -21,6 +21,7 @@ public class SendEmailController {
     @RequestMapping(method = RequestMethod.POST)
     public String doSendEmail(HttpServletRequest request) {
         // takes input from e-mail form
+    	String account = "jeromecook@etjec.com";
         String name = request.getParameter("name");
         String emailAddress = request.getParameter("emailAddress");
         String message = request.getParameter("message");
@@ -32,9 +33,11 @@ public class SendEmailController {
          
         // creates a simple e-mail object
         SimpleMailMessage email = new SimpleMailMessage();
-        email.setTo(emailAddress);
-        email.setSubject(name);
-        email.setText(message);
+        email.setTo(account);
+        email.setSubject("App-"+name);
+        email.setText("From: "+emailAddress+" "+message);
+        
+        
          
         // sends the e-mail
         mailSender.send(email);
