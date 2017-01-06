@@ -35,7 +35,7 @@ public class SendEmailController {
         // creates a simple e-mail object
         SimpleMailMessage email = new SimpleMailMessage();
         email.setTo(account);
-        email.setSubject(name + " " +emailAddress);
+        email.setSubject(name);
         email.setText(message);
         
         
