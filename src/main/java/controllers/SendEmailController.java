@@ -25,6 +25,7 @@ public class SendEmailController {
         String name = request.getParameter("name");
         String emailAddress = request.getParameter("emailAddress");
         String message = request.getParameter("message");
+        message += "\r\n"+"From: " + emailAddress;
          
         // prints debug info
         System.out.println("To: " + name);
@@ -36,13 +37,12 @@ public class SendEmailController {
         email.setTo(account);
         email.setSubject(name);
         email.setText(message);
-        //email.setSubject("App-"+name);
-        //email.setText("From: "+emailAddress+" "+message);
+        
         
         
          
         // sends the e-mail
-        //mailSender.send(email);
+        mailSender.send(email);
          
         // forwards to the view named "Result"
         return "result";
