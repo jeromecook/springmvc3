@@ -40,7 +40,7 @@ public class SendEmailController {
         
          
         // sends the e-mail
-        mailSender.send(email);
+        //mailSender.send(email);
          
         // forwards to the view named "Result"
         return "result";
