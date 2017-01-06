@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class SendEmailController {
  
     @Autowired
-    private JavaMailSender mailSender;
+    private MailSender mailSender;
      
     @RequestMapping(method = RequestMethod.POST)
     public String doSendEmail(HttpServletRequest request) {
