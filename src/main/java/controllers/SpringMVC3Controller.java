@@ -89,7 +89,7 @@ public class SpringMVC3Controller {
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
-      // String url="http://localhost:8080/SpringServiceJsonSample/service/user/"; 
+      /// String url="http://localhost:8080/SpringServiceJsonSample/service/user/"; 
        //String url ="http://api.football-data.org//alpha/soccerseasons/";
        String url = "http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=X1-ZWz1esttgz9ekr_9ljvt&zpid=48749425";
         String url_league ="http://api.football-data.org/alpha/soccerseasons/{BL1}/leagueTable/";
