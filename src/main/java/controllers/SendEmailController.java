@@ -25,7 +25,7 @@ public class SendEmailController {
         String name = request.getParameter("name");
         String emailAddress = request.getParameter("emailAddress");
         String message = request.getParameter("message");
-        //message += "\r\n"+"From: " + emailAddress;
+        message += "\r\n"+"From: " + emailAddress;
          
         // prints debug info
         System.out.println("To: " + name);

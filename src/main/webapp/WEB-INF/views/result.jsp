@@ -137,8 +137,8 @@
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/mailbox.jpg);">
 				<div class="desc animate-box">
 					<img src="images/upperBodyForwardSuitTie.png" width=300 height="475" alt="Jerome Cook">
-					<h2>We have recieved your email.</h2>
-					<span>We will get back to you shortly.</span>
+					<h2>We have recieved your email</h2>
+					<span>We will get back to you shortly</span>
 					<!-- <span><a class="btn btn-primary" href="#">Get Started</a></span>
 					 -->
 				</div>
