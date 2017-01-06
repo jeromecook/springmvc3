@@ -25,24 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
  
 @Controller
 public class SpringMVC3Controller {
-	private ConstructorTest contTest;
 	
-	
-  
-	SpringMVC3Controller(){
-	   System.out.println("defalut contructor" + contTest);
-	 //  System.out.println("hitting contsTest: "+ contTest.shoot());
-   }
-   
-   SpringMVC3Controller(ConstructorTest contTest){
-	  System.out.println("in Spring MVC3 Controller"); 
-	  this.contTest = contTest;
-   }
-    @RequestMapping("/hello")
-    public String sayHelloToOpenShift(){
-    	
-        return "hello";
-    }
     
     @RequestMapping(value = "/index" , method= RequestMethod.GET)
     public String homePage(ModelMap model){
@@ -66,13 +49,18 @@ public class SpringMVC3Controller {
         return "contact";
     }
     
-    @RequestMapping(value = "/portfolio", method=RequestMethod.GET)
+    @RequestMapping(value = "/list", method=RequestMethod.GET)
     public String noSideBar(ModelMap model){
     	
     	model.addAttribute("message", "no sidebar constroller");
-    	return "portfolio";
+    	return "list";
     }
-    
+    @RequestMapping(value = "/buy", method=RequestMethod.GET)
+    public String buying(ModelMap model){
+    	
+    	model.addAttribute("message", "buying mode");
+    	return "buy";
+    }
     @RequestMapping(value = "/blog", method=RequestMethod.GET)
     public String blog(ModelMap model){
     	
@@ -85,6 +73,12 @@ public class SpringMVC3Controller {
     	
     	model.addAttribute("message", "no sidebar constroller");
     	return "about";
+    }
+    @RequestMapping(value = "/emailForm", method=RequestMethod.GET)
+    public String emailForm(ModelMap model){
+    	
+    	model.addAttribute("message", "emailForm");
+    	return "emailForm";
     }
     
     @RequestMapping("/listUsers")
@@ -113,16 +107,5 @@ public class SpringMVC3Controller {
     
     
     
-    public void consTest(ConstructorTest ct){
-    	ct.shoot();
-    	System.out.println("here" + ct);
-    
-    }
-	/*public ConstructorTest getContTest() {
-		return contTest;
-	}
-	public void setContTest(ConstructorTest contTest) {
-		this.contTest = contTest;
-	}
-*/
+   
 }

@@ -72,7 +72,20 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="portfolio.html" class="fh5co-sub-ddown">Listings</a>
+									<a href="list.html" class="fh5co-sub-ddown">List</a>
+									<!-- 
+									<ul class="fh5co-sub-menu">
+										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
+										<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
+										<li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
+										<li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
+										<li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
+										<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
+									</ul>
+								 -->	
+								</li>
+								<li>
+									<a href="buy.html" class="fh5co-sub-ddown">Buy</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
 										<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
@@ -203,7 +216,7 @@
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<a href="portfolio.html"> <span><i class="material-icons md-48 yellow100">home</i></span> </a>
+							<a href="listings.html"> <span><i class="material-icons md-48 yellow100">home</i></span> </a>
 							<!-- <span><i class="icon-browser"></i></span>  -->
 							<h3>List</h3>
 							<p>Top agents strive to sell your house for the most amount of money in the shortest amount of time.  </p>
@@ -211,7 +224,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-						<a href="portfolio.html">
+						<a href="listings.html">
 						<span>
 						<i class="material-icons md-48 yellow100">traffic</i>
 						</span>
@@ -225,7 +238,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-						<a href="portfolio.html">
+						<a href="listings.html">
 						<span>
 						<i class="material-icons md-48 yellow100">business_center</i>
 						</span>
@@ -247,7 +260,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">	
-						<a href="portfolio.html">					
+						<a href="listings.html">					
 						<span>
 						<i class="material-icons md-48 yellow100">build</i>
 						</span>
@@ -255,7 +268,7 @@
 							<!-- <span><i class="icon-video"></i></span>  -->
 							<h3>Real Estate Investing</h3>
 							<p>Our specialty:
-							Start you own business with real estate. Become a landlord 10% ROI, Flipping Houses up 40% ROI.
+							Start you own business with real estate. Become a landlord 10% ROI, Flipping Houses up to 40% ROI.
 							   </p>
 						</div>
 					</div>

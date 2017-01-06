@@ -104,6 +104,7 @@
 									</ul>
 								 -->	
 								</li>
+								
 								<li>
 									<a href="services.html" class="fh5co-sub-ddown">Services</a>
 									<!--  
@@ -141,114 +142,115 @@
 
 		<div class="fh5co-hero fh5co-hero-2">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/work-3.jpg);">
+			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/buying-first-home.jpg);">
 				<div class="desc animate-box">
-					<h2>Our Blog</h2>
-					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->	
+					<h2>Buyers</h2>
+					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
 				</div>
 			</div>
-
 		</div>
 		<!-- end:header-top -->
-		<div id="fh5co-blog-section" class="fh5co-section-gray">
+		<div id="fh5co-work-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Read Our Blog</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+						<h3>Buying 101</h3>
+						<p> </p>
 					</div>
 				</div>
 			</div>
+			
+			
+			
+				<div style=" margin-bottom:100px; margin-left:4px;" >
+					<div  >
+					<h3>Going mortgage home rates:</h3>
+						 <link rel="stylesheet" href="http://www.bankrate.com/free-content/css/bankrate-fcc-rate-averages.css" type="text/css"/><div id="mrtgrateAveragesheaderDiv2" class="BankrateFCC_oa-boxhead-container-small" style="display:block"><div id="mrtgrateAveragesheaderTitle2" class="BankrateFCC_oa-boxhead">Mortgage Rate Averages</div><a href="http://www.bankrate.com/" target="_blank"><img id="mrtgraheaderLogo2" src="http://www.bankrate.com/images/free-content/widget-logo.gif" border="0" align="right" width="116" height="23" alt="Bankrate.com"></a></div><input id="mrtgrateAveragesVal" type ="text" value="1,Arial,300,2,2" style="display:none" /><script language="Javascript" src="http://js.bankrate.com/rate-averages/free-mortgage-rate-averages-widget.js" type="text/javascript"></script><div id="mrtgrateAveragesfooterDiv2" class="BankrateFCC_oa-footer-container small" style="display:block">View <a href="http://www.bankrate.com/mortgage.aspx" rel="nofollow" title="Mortgage rate averages by Bankrate.com"  target="_blank"> <u>today's mortgage rates</u></a> from banks and lenders.</div><script type="text/javascript">mrtgrateAveragesinit();</script>
+
+					</div>
+					
+				</div>
+			
+					
+					<div style=" margin-top:20px;margin-bottom:100px;margin-left:4px;">
+					<div>
+					<h3>Find out what you can afford:</h3>
+			         </div>
+			         <!-- Amortization Calculator Widget START --><script src="http://usmortgagecalculator.org/widget/2.0/js/amortizationcalc-loader.min.js" type="text/javascript"></script><div id="acww-widgetwrapper" style="min-width:250px;width:100%;"><div id="acww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;"></div><div id="acww-more" style="background:#333;font:normal 13px/1 Helvetica, Arial, Verdana, Sans-serif;padding:10px 0;color:#FFF;text-align:center;width:100%;clear:both;margin:0;clear:both;float:left;"><a style="background:#333;color:#FFF;text-decoration:none;border-bottom:1px dotted #ccc;" href="http://usmortgagecalculator.org/" title="Mortgage Calculator" rel="nofollow" target="_blank">usmortgagecalculator.org</a></div></div><!-- Amortization Calculator Widget END -->
+
+					
+					</div>
+				
+			
+			<!-- 
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/blog-1.jpg" alt=""></a>
-							<div class="image-popup" href="#">
+					<div class="col-md-4">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/work-1.jpg);">
+							<a class="image-popup text-center" href="#">
 								<div class="prod-title">
-									<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-									<span class="posted_by">Posted by: Admin</span>
-									<span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<a href="#" class="btn btn-primary">Read More</a>
+									<h3>Don’t Just Stand There</h3>
+									<span>Illustration, Print</span>
 								</div>
-							</div> 
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/blog-2.jpg" alt=""></a>
-							<div class="image-popup" href="#">
+					<div class="col-md-4">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
+							<a class="image-popup text-center" href="#">
 								<div class="prod-title">
-									<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-									<span class="posted_by">Posted by: Admin</span>
-									<span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<a href="#" class="btn btn-primary">Read More</a>
+									<h3>Don’t Just Stand There</h3>
+									<span>Illustration, Print</span>
 								</div>
-							</div> 
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/blog-3.jpg" alt=""></a>
-							<div class="image-popup" href="#">
+					<div class="col-md-4">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
+							<a class="image-popup text-center" href="#">
 								<div class="prod-title">
-									<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-									<span class="posted_by">Posted by: Admin</span>
-									<span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<a href="#" class="btn btn-primary">Read More</a>
+									<h3>Don’t Just Stand There</h3>
+									<span>Illustration, Print</span>
 								</div>
-							</div> 
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/blog-1.jpg" alt=""></a>
-							<div class="image-popup" href="#">
+					<div class="col-md-4">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
+							<a class="image-popup text-center" href="#">
 								<div class="prod-title">
-									<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-									<span class="posted_by">Posted by: Admin</span>
-									<span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<a href="#" class="btn btn-primary">Read More</a>
+									<h3>Don’t Just Stand There</h3>
+									<span>Illustration, Print</span>
 								</div>
-							</div> 
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/blog-2.jpg" alt=""></a>
-							<div class="image-popup" href="#">
+					<div class="col-md-4">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
+							<a class="image-popup text-center" href="#">
 								<div class="prod-title">
-									<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-									<span class="posted_by">Posted by: Admin</span>
-									<span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<a href="#" class="btn btn-primary">Read More</a>
+									<h3>Don’t Just Stand There</h3>
+									<span>Illustration, Print</span>
 								</div>
-							</div> 
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4">
-						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/blog-3.jpg" alt=""></a>
-							<div class="image-popup" href="#">
+					<div class="col-md-4">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/work-6.jpg);">
+							<a class="image-popup text-center" href="#">
 								<div class="prod-title">
-									<h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-									<span class="posted_by">Posted by: Admin</span>
-									<span class="comment"><a href="">21<i class="icon-bubble22"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<a href="#" class="btn btn-primary">Read More</a>
+									<h3>Don’t Just Stand There</h3>
+									<span>Illustration, Print</span>
 								</div>
-							</div> 
+							</a>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
-		<!-- fh5co-blog-section -->
+		-->
+		<!-- END fh5co-work-section -->
 		
 		<footer>
 			<div id="footer">
@@ -263,18 +265,17 @@
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
 							<p> Jerome Cook</p>
-							 <p>  17592 E 17th St #100, Tustin, CA 92780<p>
+ 							<p>  17592 E 17th St #100, Tustin, CA 92780<p>
 							 <p> Phone: 562-225-9511 </p>
 							
 							
 							<p> Etjec Design and Web developlment </p>
-							<p>Copyright 2016 Free Html5 <a href="#">Guardian</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>						</div>
+							<p>Copyright 2016 Free Html5 <a href="#">Guardian</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+ 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-	
-
 	</div>
 	<!-- END fh5co-page -->
 
@@ -300,7 +301,7 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 	
-    <!-- live Supporti chat  -->
+	<!-- live Supporti chat  -->
 		<script type='text/javascript'>
 	    (function() {
 	    var s = document.createElement('script');s.type='text/javascript';s.async=true;s.id='lsInitScript';
@@ -308,6 +309,7 @@
 	    var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
 	    })();
 	    </script>
+
 	</body>
 </html>
 
