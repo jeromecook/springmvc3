@@ -216,7 +216,7 @@
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-							<a href="listings.html"> <span><i class="material-icons md-48 yellow100">home</i></span> </a>
+							<a href="list.html"> <span><i class="material-icons md-48 yellow100">home</i></span> </a>
 							<!-- <span><i class="icon-browser"></i></span>  -->
 							<h3>List</h3>
 							<p>Top agents strive to sell your house for the most amount of money in the shortest amount of time.  </p>
@@ -224,7 +224,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-						<a href="listings.html">
+						<a href="list.html">
 						<span>
 						<i class="material-icons md-48 yellow100">traffic</i>
 						</span>
@@ -238,7 +238,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">
-						<a href="listings.html">
+						<a href="buy.html">
 						<span>
 						<i class="material-icons md-48 yellow100">business_center</i>
 						</span>
@@ -260,7 +260,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="services animate-box">	
-						<a href="listings.html">					
+						<a href="list.html">					
 						<span>
 						<i class="material-icons md-48 yellow100">build</i>
 						</span>
