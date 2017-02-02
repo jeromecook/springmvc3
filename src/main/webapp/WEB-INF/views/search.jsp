@@ -152,7 +152,7 @@
 		
 		<div class="calendar-container">				
 			<c:set var="listing" scope="request" value="${featured}"/>
-			<iFrame src='<c:out value="${listing}"/>' ></iframe>					
+			<iFrame src='<c:out value="${listing}"/>' height="1000" ></iframe>					
 		</div>			
 			<!--  
 		<div align="center" >
