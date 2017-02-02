@@ -72,6 +72,9 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
+									<a href="search.html" class="fh5co-sub-ddown">List</a>
+								</li>
+								<li>
 									<a href="list.html" class="fh5co-sub-ddown">List</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
@@ -139,9 +142,9 @@
 					<img src="images/upperBodyForwardSuitTie.png" width=300 height="475" alt="Jerome Cook">
 					 <h2>Professional Realty</h2>
 					  <span>Go find your home <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name"></a></span>
-					    <form  id="my_form_primary" action="search.do" action="get">
+					    <form  id="my_form_button" action="searchButton.do" action="get">
 						  <span>
-						    <a class="btn btn-primary" href="javascript:{}" onclick="document.getElementById('my_form_primary').submit(); return false;">
+						    <a class="btn btn-primary" href="javascript:{}" onclick="document.getElementById('my_form_button').submit(); return false;">
 								<input type="hidden" name="primary" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=52484181&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=90815&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=900000&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=1">
 						       Property Search
 						    </a>

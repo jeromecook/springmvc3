@@ -86,6 +86,11 @@ public class SpringMVC3Controller {
     	return "emailForm";
     }
     @RequestMapping(value = "/search", method=RequestMethod.GET)
+    public ModelAndView search(){  
+    	String url = "http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=52484181&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=90815&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=900000&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=1";
+    	return new ModelAndView("search","featured", url);    	
+    }
+    @RequestMapping(value = "/searchButton", method=RequestMethod.GET)
     public ModelAndView search(@RequestParam("primary") String url0){
     	
     	

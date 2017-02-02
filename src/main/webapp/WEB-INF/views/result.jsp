@@ -72,6 +72,9 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
+									<a href="search.html" class="fh5co-sub-ddown">Search</a>
+								</li>
+								<li>
 									<a href="list.html" class="fh5co-sub-ddown">List</a>
 									<!-- 
 									<ul class="fh5co-sub-menu">
