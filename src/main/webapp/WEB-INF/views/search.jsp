@@ -149,11 +149,21 @@
 				</div>
 			</div>
 		</div>
+		
+		<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-8">
+						<c:set var="listing" scope="request" value="${featured}"/>
+						<iFrame src='<c:out value="${listing}"/>' width="940" height="1000"></iframe>
+					
+					</div>
+		</div>			
+			<!--  
 		<div align="center" >
 			<c:set var="listing" scope="request" value="${featured}"/>
 			<iFrame src='<c:out value="${listing}"/> 'width="1000" height="1000"	 ></iframe>
 		</div>
-			
+			-->
  		<footer>
 			<div id="footer">
 				<div class="container">
