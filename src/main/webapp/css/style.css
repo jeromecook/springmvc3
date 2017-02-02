@@ -1260,13 +1260,17 @@ img {
 
 /*# sourceMappingURL=style.css.map */
 
-.calendar-container {
+.search-container {
     position: relative;
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
+    
+    -webkit-overflow-scrolling: touch;
+  /*overflow-y: scroll;
+  */
 }
-.calendar-container iframe {
+.search-container iframe {
     position: absolute;
     top:0;
     left: 0;
