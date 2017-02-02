@@ -1262,13 +1262,13 @@ img {
 
 .search-container {
     position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 25%;
     height: 0;
-    overflow: hidden;
+    /*overflow: hidden; */
     
     -webkit-overflow-scrolling: touch;
-  /*overflow-y: scroll;
-  */
+  overflow-y: scroll;
+  
 }
 .search-container iframe {
     position: absolute;
