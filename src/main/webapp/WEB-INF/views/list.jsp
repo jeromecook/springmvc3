@@ -153,75 +153,73 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Featured Listings</h3>
-						<p> Real Estate for you.</p>
+						<h3>Selected Listings</h3>
+
+ 					<p></p>
 					</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-1.jpg);">
-							<a class="image-popup text-center" href="#">
+					<div class="col-md-8 col-sm-8">
+					<form  id="my_form" action="search1.do" action="get">
+						<div class="fh5co-grid animate-box" style="background-image: url(http://photo2.proxiopro.com/p1/52484181/0.jpg?t=1485178635)">
+							<a class="image-popup text-center"
+							href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;">
+							<input type="hidden" name="featured1" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=52484181&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=90815&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=900000&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=1"> 
 								<div class="prod-title">
-									<h3>Don’t Just Stand There</h3>
-									<span>Illustration, Print</span>
+									<h3>$1,695,000 Mid Century</h3>
+									<span>1400 Bryant Road, Long Beach, California 90815</span>
 								</div>
 							</a>
 						</div>
+						</form>
+					
 					</div>
-					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
-							<a class="image-popup text-center" href="#">
+					<div class="col-md-4 col-sm-4">
+						<form  id="my_form2" action="search2.do" action="get">
+						<div class="fh5co-grid animate-box" style="background-image: url(http://photo4.proxiopro.com/p1/50744567/0.jpg?t=1482135998)">
+							<a class="image-popup text-center"
+							href="javascript:{}" onclick="document.getElementById('my_form2').submit(); return false;">
+							<input type="hidden" name="featured2" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=50744567&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=92648&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=4"> 
 								<div class="prod-title">
-									<h3>Don’t Just Stand There</h3>
-									<span>Illustration, Print</span>
+									<h3> $1,499,000 Beach living!</h3>
+									<span>610 9th Street, Huntington Beach, California 92648</span>
 								</div>
 							</a>
 						</div>
+						</form>
+						
 					</div>
-					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
-							<a class="image-popup text-center" href="#">
+					<div class="col-md-4 col-sm-4">
+						<form  id="my_form3" action="search3.do" action="get">
+						<div class="fh5co-grid animate-box" style="background-image: url(http://photo2.proxiopro.com/p1/52412797/0.jpg?t=1485527892)">
+							<a class="image-popup text-center"
+							href="javascript:{}" onclick="document.getElementById('my_form3').submit(); return false;">
+							<input type="hidden" name="featured3" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=52412797&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=90808&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=1"> 
 								<div class="prod-title">
-									<h3>Don’t Just Stand There</h3>
-									<span>Illustration, Print</span>
+									<h3>$865,000 Pool Home</h3>
+									<span>7900 E Rosina Street, Long Beach, California 90808</span>
 								</div>
 							</a>
 						</div>
+						</form>
 					</div>
-					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
-							<a class="image-popup text-center" href="#">
+					<div class="col-md-8 col-sm-8">
+						<form  id="my_form4" action="search4.do" action="get">
+						<div class="fh5co-grid animate-box" style="background-image: url(http://photo4.proxiopro.com/p1/50600639/0.jpg?t=1481880614)">
+							<a class="image-popup text-center"
+							href="javascript:{}" onclick="document.getElementById('my_form4').submit(); return false;">
+							<input type="hidden" name="featured4" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=50600639&CountryId=1&RegionId=CA&RegionName=California&CityId=La%20Habra&CityName=La%20Habra%20(122)&PostCode=&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=700000&ClassId=-1&PropStatus=90&AreaUnit=1&page=1"> 
 								<div class="prod-title">
-									<h3>Don’t Just Stand There</h3>
-									<span>Illustration, Print</span>
+									<h3>$634,000 Remodeled!</h3>
+									<span>441 N Colfax Street, La Habra, California 90631</span>
 								</div>
 							</a>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="prod-title">
-									<h3>Don’t Just Stand There</h3>
-									<span>Illustration, Print</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-6.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="prod-title">
-									<h3>Don’t Just Stand There</h3>
-									<span>Illustration, Print</span>
-								</div>
-							</a>
-						</div>
+					  </form>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 		<!-- END fh5co-work-section -->

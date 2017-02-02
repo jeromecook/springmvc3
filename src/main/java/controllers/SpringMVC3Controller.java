@@ -5,6 +5,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.swing.Spring;
+
 import model.ConstructorTest;
 
 import org.jsoup.Jsoup;
@@ -14,8 +17,10 @@ import org.jsoup.select.Elements;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -80,6 +85,64 @@ public class SpringMVC3Controller {
     	model.addAttribute("message", "emailForm");
     	return "emailForm";
     }
+    
+    @RequestMapping(value = "/search1", method=RequestMethod.GET)
+    public ModelAndView search(@RequestParam("featured1") String url0){
+    	
+    	
+    	 
+    	if( !url0.equals(null))
+    		 return new ModelAndView("search","featured", url0);
+    	     System.out.println("url printed out: "+ url0);
+    	     
+    	   
+    	String url = "http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=%20%20%20%20%20%20%20%20&PropertyId=51033392&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=&CurrencyId=490%20%20%20%20%20%20%20%20&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=0&ClassId=-1%20%20%20%20%20%20%20%20&PropStatus=90&AreaUnit=1&page=1";
+    	return new ModelAndView("search","featured", url);    	
+    }
+    
+    @RequestMapping(value = "/search2", method=RequestMethod.GET)
+    public ModelAndView search2(@RequestParam("featured2") String url)
+    		{
+    	
+    	
+    	if( !url.equals(null)){
+    		System.out.println("url printed out: "+ url);
+    		 return new ModelAndView("search","featured", url);
+    	     }
+    	     
+    	   
+    	String urlCommon = "http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=%20%20%20%20%20%20%20%20&PropertyId=51033392&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=&CurrencyId=490%20%20%20%20%20%20%20%20&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=0&ClassId=-1%20%20%20%20%20%20%20%20&PropStatus=90&AreaUnit=1&page=1";
+    	return new ModelAndView("search","featured", urlCommon);    	
+    }
+    @RequestMapping(value = "/search3", method=RequestMethod.GET)
+    public ModelAndView search3(@RequestParam("featured3") String url)
+    		{
+    	
+    	if( !url.equals(null))
+    		 return new ModelAndView("search","featured", url);
+    	     System.out.println("url printed out: "+ url);
+    	     
+    	   
+    	String urlCommon = "http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=%20%20%20%20%20%20%20%20&PropertyId=51033392&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=&CurrencyId=490%20%20%20%20%20%20%20%20&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=0&ClassId=-1%20%20%20%20%20%20%20%20&PropStatus=90&AreaUnit=1&page=1";
+    	return new ModelAndView("search","featured", urlCommon);    	
+    }
+    
+    @RequestMapping(value = "/search4", method=RequestMethod.GET)
+    public ModelAndView search4(@RequestParam("featured4") String url
+    		/*@RequestParam("featured1") String url1,
+    		@RequestParam("featured2") String url2,
+    		@RequestParam("featured3") String url3*/){
+    	System.out.println("url printed out: "+ url);
+    	
+    	if( !url.equals(null))
+    		 return new ModelAndView("search","featured", url);
+    	     System.out.println("url printed out: "+ url);
+    	     
+    	   
+    	String urlCommon = "http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=%20%20%20%20%20%20%20%20&PropertyId=51033392&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=&CurrencyId=490%20%20%20%20%20%20%20%20&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=0&MaxPrice=0&ClassId=-1%20%20%20%20%20%20%20%20&PropStatus=90&AreaUnit=1&page=1";
+    	return new ModelAndView("search","featured", urlCommon);    	
+    }
+    
     
     @RequestMapping("/listUsers")
    

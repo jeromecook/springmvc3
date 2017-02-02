@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -141,139 +142,19 @@
 
 		<div class="fh5co-hero fh5co-hero-2">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/collaborate-1.jpg);">
+			 <div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(/images/collaborate-1.jpg);"> 
 				<div class="desc animate-box">
-					<h2>About Us</h2>
+					<h2>Property Search</h2>
 					<!--  <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
 				</div>
 			</div>
 		</div>
-		
-		<!-- end:header-top -->
-		<div id="fh5co-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>About Us</h3>
-						<p>Striving for perfection, a team of Investors, Real Estate Agents, and Building Contractors.
-						   Etjec uses strategic planning and data analysis for all residential, commercial and investments transactions.</p>  
-							<p>We coordinate all projects with accuracy, whether it's a simple purchase, sell or purchase with remodel in-mind.
-							Investment properties: our team searches daily for below value properties and our network of investors make our hunt limitless.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- 
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-12 animate-box">
-						<figure>
-							<img src="images/about-image.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-						</figure>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 animate-box">
-						<h3>Simple &amp; Humble Beginning</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum perspiciatis, debitis pariatur atque vitae sed blanditiis nobis sint, reprehenderit quas, natus corrupti! Ipsum cum possimus corporis aut architecto! Delectus enim adipisci quidem possimus voluptates! Aut ut aliquid molestias laudantium.</p>
-					</div>
-				</div>
-				
-			</div>
-			 -->
+		<div align="center" >
+			<c:set var="listing" scope="request" value="${featured}"/>
+			<iFrame src='<c:out value="${listing}"/> 'width="1000" height="1000"	 ></iframe>
 		</div>
-		<!-- END fh5co-about -->
-		<!-- 
-		<div id="fh5co-content-section" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>What Others Say</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="fh5co-testimonial text-center animate-box">
-							<figure>
-								<img src="images/user-1.jpg" alt="user">
-							</figure>
-							<blockquote>
-								<p>âCreativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didnât really do it, they just saw something. It seemed obvious to them after a while.â</p>
-							</blockquote>
-							<span>Steve Jobs, Apple Inc.</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		-->
-		<!-- fh5co-content-section -->
-		<!-- 
-		<div id="fh5co-services-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>What We Do</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-					</div>
-				</div>
-			</div>
 			
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-browser"></i></span>
-							<h3>Web Development</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-mobile"></i></span>
-							<h3>Mobile Apps</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-tools"></i></span>
-							<h3>UX Design</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-video"></i></span>
-							<h3>Video Editing</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-search"></i></span>
-							<h3>SEO Ranking</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-cloud"></i></span>
-							<h3>Cloud Based Apps</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-				</div>
-			</div>			
-		</div>
-		 -->
-		<!-- END fh5co-services-section -->
-	
-		<footer>
+ 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row">
@@ -323,6 +204,15 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+	
+	<!-- live Supporti chat  -->
+		<script type='text/javascript'>
+	    (function() {
+	    var s = document.createElement('script');s.type='text/javascript';s.async=true;s.id='lsInitScript';
+	    s.src='https://livesupporti.com/Scripts/clientAsync.js?acc=e584c724-311d-4d43-a189-fbda1f402634&skin=Modern';
+	    var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
+	    })();
+	    </script>
 
 	</body>
 </html>
