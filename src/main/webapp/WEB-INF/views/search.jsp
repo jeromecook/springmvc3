@@ -25,7 +25,7 @@
 <body>
 <div class="search-container">				
 			<c:set var="listing" scope="request" value="${featured}"/>
-			<iFrame src='<c:out value="${listing}"/>' height="1000" ></iframe>					
+			<iFrame src='<c:out value="${listing}"/>'  ></iframe>					
 		</div>	
 		
 </body>
