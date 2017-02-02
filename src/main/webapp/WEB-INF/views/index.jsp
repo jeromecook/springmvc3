@@ -27,7 +27,8 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	 <link rel="shortcut icon" href="favicon.ico">
+	 
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
 	
@@ -72,7 +73,7 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li>
-									<a href="search.html" class="fh5co-sub-ddown">List</a>
+									<a href="search.html" class="fh5co-sub-ddown">Search</a>
 								</li>
 								<li>
 									<a href="list.html" class="fh5co-sub-ddown">List</a>
