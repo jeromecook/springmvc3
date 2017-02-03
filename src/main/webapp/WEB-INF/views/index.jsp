@@ -142,7 +142,7 @@
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/home-image.jpg);">
 				<div class="desc animate-box">
-					<img src="images/upperBodyForwardSuitTie.png" width=300 height="475" alt="Jerome Cook">
+					<a href="http://www.etjec.com"> <img src="images/upperBodyForwardSuitTie.png" width=300 height="475" alt="Jerome Cook"> </a>
 					 <h2>Professional Realty</h2>
 					  <span>Go find your home <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name"></a></span>
 					    <form  id="my_form_button" action="searchButton.do" action="get">
