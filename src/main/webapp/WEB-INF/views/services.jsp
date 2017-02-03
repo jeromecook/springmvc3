@@ -12,6 +12,7 @@
 	<meta name="description" content="Etjec Realty Home and property service" />
 	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, investment property, Flip house, Land, sell, buy, list, residential" />
 	<meta name="author" content="Etjec Realty Jerome Cook" />
+	<meta name="image" content="images/upperBodyForwardSuitTie.png" />
 
   
   	<!-- Facebook and Twitter integration -->
