@@ -94,6 +94,12 @@ figure {
     height: 700px;
   }
 }
+@media screen and (max-width: 768px) {
+  .fh5co-cover_searchOnly,
+  .fh5co-hero_searchOnly {
+    height: 300px;
+  }
+}
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
   height: 600px;
