@@ -170,6 +170,14 @@ figure {
   z-index: 2;
   color: #fff;
 }
+.fh5co-cover_searchOnly .desc {
+  top: 75%;
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+  z-index: 2;
+  color: #fff;
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc {
     padding-left: 15px;
