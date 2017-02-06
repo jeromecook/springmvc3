@@ -144,11 +144,11 @@
 			
 		</div>
 		
-
+<!--  
 		<div class="fh5co-hero_searchOnly fh5co-hero-2_searchOnly">
 		
 		   <div class="fh5co-overlay"></div>
-			  <div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(/images/orangeCountyView.jpg);"> 
+			  <div class="fh5co-cover_searchOnly fh5co-cover_2_searchOnly text-center" data-stellar-background-ratio="0.5" style="background-image: url(/images/orangeCountyView.jpg); height:100px;"> 
 				 <div class="desc animate-box">
 					<h2>Property Search </h2>
 				 </div>
@@ -156,6 +156,7 @@
 		   </div>
 		 
 		  </div>
+	-->	  
 	<!-- END fh5co-page -->
 
 	</div>
