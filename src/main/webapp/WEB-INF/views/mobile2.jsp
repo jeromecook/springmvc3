@@ -145,8 +145,8 @@
 		</div>
 		
 
-		<div class="fh5co-hero fh5co-hero-2">
-		<!-- 
+		<div class="fh5co-hero_searchOnly fh5co-hero-2_searchOnly">
+		
 		   <div class="fh5co-overlay"></div>
 			  <div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(/images/orangeCountyView.jpg);"> 
 				 <div class="desc animate-box">
@@ -154,7 +154,13 @@
 				 </div>
 			 </div>
 		   </div>
-		  -->
+		 
+		  </div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+	
 		<div class="search-container">				
 			<c:set var="listing" scope="request" value="${featured}"/>
 			<iFrame src='<c:out value="${listing}"/>' height="1000" ></iframe>					
@@ -192,11 +198,7 @@
 		</footer>
 	
 
-	</div>
-	<!-- END fh5co-page -->
-
-	</div>
-	<!-- END fh5co-wrapper -->
+	
 
 	<!-- jQuery -->
 

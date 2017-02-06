@@ -79,6 +79,15 @@ figure {
   position: relative;
   height: 800px;
 }
+.fh5co-cover_searchOnly,
+.fh5co-hero_searchOnly {
+  position: relative;
+  height: 400px;
+}
+.fh5co-cover-searchOnly {
+  position: relative;
+  height: 400px;
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
@@ -88,6 +97,10 @@ figure {
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
   height: 600px;
+}
+.fh5co-cover.fh5co-hero-2_searchOnly,
+.fh5co-hero.fh5co-hero-2_searchOnly {
+  height: 300px;
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
@@ -132,6 +145,10 @@ figure {
 }
 .fh5co-cover.fh5co-cover_2 {
   height: 600px;
+}
+
+.fh5co-cover.fh5co-cover_2_searchOnly {
+  height: 300px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
