@@ -144,7 +144,7 @@
 			
 		</div>
 		
-<!--  
+
 		<div class="fh5co-hero_searchOnly fh5co-hero-2_searchOnly">
 		
 		   <div class="fh5co-overlay"></div>
@@ -156,7 +156,6 @@
 		   </div>
 		 
 		  </div>
-	-->	  
 	<!-- END fh5co-page -->
 
 	</div>
