@@ -82,11 +82,11 @@ figure {
 .fh5co-cover_searchOnly,
 .fh5co-hero_searchOnly {
   position: relative;
-  height: 300px;
+  height: 350px;
 }
 .fh5co-cover-searchOnly {
   position: relative;
-  height: 300px;
+  height: 350px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -97,7 +97,7 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover_searchOnly,
   .fh5co-hero_searchOnly {
-    height: 300px;
+    height: 350px;
   }
 }
 .fh5co-cover.fh5co-hero-2,
@@ -106,7 +106,7 @@ figure {
 }
 .fh5co-cover.fh5co-hero-2_searchOnly,
 .fh5co-hero.fh5co-hero-2_searchOnly {
-  height: 300px;
+  height: 350px;
 }
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
@@ -123,6 +123,19 @@ figure {
 }
 
 .fh5co-overlay {
+  position:  absolute !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  background: rgba(66, 64, 64, 0.7	);	
+  /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
+  */
+}
+.fh5co-cover.fh5co-hero-2_searchOnly .fh5co-overlay_searchOnly,
+.fh5co-hero.fh5co-hero-2_searchOnly .fh5co-overlay_searchOnly {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -130,6 +143,18 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
+  background: rgba(66, 64, 64, 0.7);
+  /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
+  */
+}
+.fh5co-overlay_searchOnly {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 330px;
+  right: 0;
+  z-index: 0;
   background: rgba(66, 64, 64, 0.7	);	
   /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
   */
@@ -141,7 +166,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -154,7 +179,7 @@ figure {
 }
 
 .fh5co-cover.fh5co-cover_2_searchOnly {
-  height: 300px;
+  height: 350px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
