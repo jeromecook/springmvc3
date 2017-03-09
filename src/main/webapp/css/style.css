@@ -616,13 +616,13 @@ figure {
 .fh5co-grid:hover .image-popup {
   opacity: 1;
 }
-.fh5co-grid:active  {
+.fh5co-grid:focus  {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-.fh5co-grid:active .image-popup {
+.fh5co-grid:focus .image-popup {
   opacity: 1;
 }
 /*
