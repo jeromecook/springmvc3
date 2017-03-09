@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Etjec  &mdash;  Real Estate expert consultant group: residential and property investments</title>
+	<title>Etjec  &mdash;  Real Estate consultant group: residential and property investments</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Etjec Realty Home and property service" />
 	<meta name="keywords" content="Realty, Realtor, Home, Sale, property, investment property, Flip house, Land, sell, buy, list, residential" />
@@ -173,7 +173,7 @@
 				<div class="row">
 					<div class="col-md-8 col-sm-8">
 					<form  id="my_form" action="search1.do" action="get">
-						<div class="fh5co-grid animate-box" style="background-image: url(http://photo2.proxiopro.com/p1/52484181/0.jpg?t=1485178635)">
+						<div class="fh5co-grid animate-box" style="background-image: url(http://photo2.proxiopro.com/p1/52484181/0.jpg?t=1485178635); alt="1400 Bryant Road, Long Beach, California 90815"">
 							<a class="image-popup text-center"
 							href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;">
 							<input type="hidden" name="featured1" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=52484181&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=90815&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=900000&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=1"> 

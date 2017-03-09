@@ -117,7 +117,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.7);
+  background: rgba(66, 64, 64, 0.9);
   /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
   */
 }
@@ -130,7 +130,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 0;
-  background: rgba(66, 64, 64, 0.7	);	
+  background: rgba(66, 64, 64, 0.9	);	
   /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
   */
 }
@@ -607,7 +607,7 @@ figure {
 .fh5co-grid .image-popup .prod-title span {
   color: #fff;
 }
-.fh5co-grid:hover {
+.fh5co-grid:hover  {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
@@ -616,7 +616,22 @@ figure {
 .fh5co-grid:hover .image-popup {
   opacity: 1;
 }
-
+.fh5co-grid:active  {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.fh5co-grid:active .image-popup {
+  opacity: 1;
+}
+/*
+@media screen and (max-width: 480px) {
+  .fh5co-grid .image-popup {
+    opacity:1;
+  }
+}
+*/
 .services {
   margin-bottom: 5em;
 }
