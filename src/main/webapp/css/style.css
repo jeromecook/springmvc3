@@ -573,7 +573,7 @@ figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .fh5co-grid {
     height: 400px;
   }
