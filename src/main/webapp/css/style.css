@@ -607,31 +607,24 @@ figure {
 .fh5co-grid .image-popup .prod-title span {
   color: #fff;
 }
-.fh5co-grid:hover  {
+
+ .fh5co-grid:hover  {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-.fh5co-grid:hover .image-popup {
+ .fh5co-grid:hover .image-popup {
   opacity: 1;
 }
-.fh5co-grid:focus  {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
-}
-.fh5co-grid:focus .image-popup {
-  opacity: 1;
-}
-/*
-@media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 768px) {
   .fh5co-grid .image-popup {
     opacity:1;
   }
 }
-*/
+
 .services {
   margin-bottom: 5em;
 }
