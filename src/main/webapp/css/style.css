@@ -624,6 +624,14 @@ figure {
     opacity:1;
   }
 }
+@media screen and (max-width: 768px) {
+.fh5co-grid  {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+ }
+}
 
 .services {
   margin-bottom: 5em;
