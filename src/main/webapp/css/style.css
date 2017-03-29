@@ -117,7 +117,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.9);
+  background: rgba(66, 64, 64, 0.6);
   /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
   */
 }
@@ -130,7 +130,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 0;
-  background: rgba(66, 64, 64, 0.9	);	
+  background: rgba(66, 64, 64, 0.6	);	
   /* background: rgba(66, 64, 64, 0.9); pages cover photo, dimmed out
   */
 }
