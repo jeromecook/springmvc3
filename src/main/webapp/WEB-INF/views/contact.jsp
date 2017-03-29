@@ -165,7 +165,7 @@
 							<ul class="contact-info">
 							<li><i class="icon-location-pin"></i><p> Jerome Cook</p></li>
 							<li> Cal BRE License #01993591</li>
-							    <li>Realty Masters Inc Brokerage</li>
+							    <li>Realty Masters & Associates Inc Brokerage</li>
 								<li><i class="icon-location-pin"></i>17592 E 17th St #100, Tustin, CA 92780</li>
 								<li><i class="icon-phone2"></i>Phone: 562-225-9511</li>
 								<li><i class="icon-mail"></i><a href="#">JeromeCook@etjec.com</a></li>
@@ -216,6 +216,7 @@
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
 							<p> Jerome Cook</p>
+							<p>Realty Masters and Associates Inc Brokerage</p>
  							<p>  17592 E 17th St #100, Tustin, CA 92780<p>
 							 <p> Phone: 562-225-9511 </p>
 							 <p> Email: JeromeCook@etjec.com </p>
