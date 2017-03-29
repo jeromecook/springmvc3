@@ -173,7 +173,7 @@
 				<div class="row">
 					<div class="col-md-8 col-sm-8">
 					<form  id="my_form" action="search1.do" action="get">
-						<div class="fh5co-grid animate-box" style="background-image: url(http://photo2.proxiopro.com/p1/52484181/0.jpg?t=1485178635); alt="1400 Bryant Road, Long Beach, California 90815"">
+						<div class="fh5co-grid animate-box" style="background-image: url(http://photo2.proxiopro.com/p1/52484181/0.jpg?t=1485178635); alt="1400 Bryant Road, Long Beach, California 90815">
 							<a class="image-popup text-center"
 							href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;">
 							<input type="hidden" name="featured1" value="http://widget.proxiopro.com/CRMLS/PropertyDetails.aspx?id=0&AGENT=&OFFICE=&PropertyId=52484181&CountryId=1&RegionId=CA&RegionName=California&CityId=-1&CityName=&PostCode=90815&CurrencyId=490&GarageCount=-1&BedRoomCount=-1&BathRoomCount=-1&yearBuilt=0&yearBuiltTo=0&MinPrice=900000&MaxPrice=0&ClassId=-1&PropStatus=90&AreaUnit=1&page=1"> 
@@ -478,6 +478,18 @@
 	    var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
 	    })();
 	    </script>
+	    
+	    <!-- google analytics -->
+	    <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-96475148-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
 
 	</body>
 </html>
