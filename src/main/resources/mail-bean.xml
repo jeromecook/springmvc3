@@ -10,9 +10,9 @@
     <context:component-scan base-package="controllers" />
  
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-        <property name="host" value="smtp.gmail.com" />
+        <property name="host" value="smtp.office365.com" />
         <property name="port" value="587" />
-        <property name="username" value="smtp.office365.com" />
+        <property name="username" value="jeromecook@etjec.com" />
         <property name="password" value="Santi3003#" />
         <property name="javaMailProperties">
             <props>
