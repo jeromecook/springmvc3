@@ -52,11 +52,11 @@
         <property name="prefix" value="/WEB-INF/views/" />
         <property name="suffix" value=".jsp" />
     </beans:bean>
-   
+    
     <beans:bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-        <property name="host" value="smtp.office365.com" />
+        <property name="host" value="smtp.gmail.com" /> <!-- "smtp.office365.com" /> -->
         <property name="port" value="587" />
-        <property name="username" value="jeromecook@etjec.com" />
+        <property name="username" value="etjecook@gmail.com" /> <!-- "jeromecook@etjec.com" />  -->
         <property name="password" value="Santi3003#" />
         <property name="javaMailProperties">
             <props>
